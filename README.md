@@ -10,3 +10,7 @@ You have two options to interact with Ralph. You can DM Ralph or you can chat to
 
 ### Example:
 ![Ralph image](/img/usage.png)
+
+## Issues
+If Ralph can't find the unit you are looking for, he will record your submission and will consider it for the future.
+Report any issues to REVZ-ZN via Discord.
