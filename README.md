@@ -1,4 +1,4 @@
-# Ralph Knows Release Notes v1.0.0
+# Ralph Knows
 
 ![Ralph image](/img/ralph.jpg)
 
