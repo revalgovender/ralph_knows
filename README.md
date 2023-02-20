@@ -13,7 +13,7 @@ You have two options to interact with Ralph:
 Simply enter the name of the unit you wish to retrieve information on.
 
 ### Example:
-![Ralph image](/img/usage.png)
+![Ralph image](/img/new-usage.png)
 
 ## Issues
 - If Ralph can't find the unit you are looking for, he will record your submission and will consider it for the future.
@@ -24,5 +24,5 @@ Simply enter the name of the unit you wish to retrieve information on.
 - If usage is low, we will reconsider bot availability
 
 ## Deployment
-- Deployments are done automatically whenever there is a commit on the "main" branch
+- Deployments are done automatically whenever there is a new commit pushed to the remote "main" branch
 - This is configured in Heroku
