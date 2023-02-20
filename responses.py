@@ -4,8 +4,6 @@ import json
 def get_response(message: str) -> str:
     user_supplied_unit_name = message.lower()
 
-    print('1')
-
     if user_supplied_unit_name == 'hello':
         return 'Hey there!'
 
@@ -17,6 +15,11 @@ def get_response(message: str) -> str:
 
     for unit in data.items():
         if user_supplied_unit_name in unit[1]['aliases']:
-            return unit[1]['unit-data']
+            return '\n\n💬 General:\n' + unit[1]['general'] + '\n\n😊 Strength:\n ' + unit[1]['strength'] + '\n\n😖 Weakness:\n ' + unit[1]['weakness']
 
-    return 'I didn\'t understand what you wrote. Try typing "!help".'
+    print("**********************************************")
+    print("Couldn't find unit!")
+    print("Unit supplied:" + user_supplied_unit_name)
+    print("**********************************************")
+
+    return '😔 **I couldn\'t find that unit sire.** I have recorded your message to study it. I will update the scrolls if required. Try typing "!help". '

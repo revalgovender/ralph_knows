@@ -6,7 +6,9 @@
       "steppe lancers"
     ],
     "actual-name": "Steppe Lancer",
-    "unit-data": "Light cavalry unit with increased attack range. Strong in groups. Weak vs. Camel Riders and archers."
+    "general": "Light cavalry unit with increased attack range.",
+    "strength": "Strong in groups.",
+    "weakness": "Camel Riders and archers."
   },
   "2": {
     "aliases": [
@@ -15,7 +17,9 @@
       "elite steppe lancers"
     ],
     "actual-name": "Elite Steppe Lancer",
-    "unit-data": "Light cavalry unit with increased attack range. Strong in groups. Weak vs. Camel Riders and archers."
+    "general": "Light cavalry unit with increased attack range.",
+    "strength": "Strong in groups.",
+    "weakness": "Camel Riders and archers."
   },
   "3": {
     "aliases": [
@@ -24,7 +28,9 @@
       "xolotl warriors"
     ],
     "actual-name": "Xolotl Warrior",
-    "unit-data": "Mesoamerican cavalry unit. Strong vs. infantry and siege. Weak vs. Pikemen and Camel Riders. "
+    "general": "Mesoamerican cavalry unit.",
+    "strength": "infantry and siege.",
+    "weakness": "Pikemen and Camel Riders."
   },
   "4": {
     "aliases": [
@@ -33,16 +39,21 @@
       "knights"
     ],
     "actual-name": "Knight",
-    "unit-data": "Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Pikemen, Camel Riders, and Monks."
+    "general": "Powerful all-purpose cavalry.",
+    "strength": "infantry and archers.",
+    "weakness": "Pikemen, Camel Riders, and Monks."
   },
   "5": {
     "aliases": [
       "cavalier",
       "Cavalier",
-      "cavaliers"
+      "cavaliers",
+      "cavilear"
     ],
     "actual-name": "Cavalier",
-    "unit-data": "Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Pikemen, Camel Riders, and Monks."
+    "general": "Powerful all-purpose cavalry.",
+    "strength": "infantry and archers.",
+    "weakness": "Pikemen, Camel Riders, and Monks."
   },
   "6": {
     "aliases": [
@@ -52,7 +63,9 @@
       "spearmens"
     ],
     "actual-name": "Spearman",
-    "unit-data": "Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry."
+    "general": "Anti-cavalry infantry unit.",
+    "strength": "mounted units, especially elephants.",
+    "weakness": "archers and infantry."
   },
   "7": {
     "aliases": [
@@ -61,7 +74,9 @@
       "militias"
     ],
     "actual-name": "Militia",
-    "unit-data": "All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "All-purpose infantry unit.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
   "8": {
     "aliases": [
@@ -71,7 +86,9 @@
       "man at arms"
     ],
     "actual-name": "Man-at-Arms",
-    "unit-data": "All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "All-purpose infantry unit.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
   "9": {
     "aliases": [
@@ -80,7 +97,9 @@
       "long swordsmen"
     ],
     "actual-name": "Long Swordsman",
-    "unit-data": "All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "All-purpose infantry unit.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
   "10": {
     "aliases": [
@@ -89,7 +108,9 @@
       "archers"
     ],
     "actual-name": "Archer",
-    "unit-data": "Ranged unit. Strong vs. units at long range. Weak vs. Skirmishers and units at close range."
+    "general": "Ranged unit.",
+    "strength": "units at long range.",
+    "weakness": "Skirmishers and units at close range."
   },
   "11": {
     "aliases": [
@@ -99,7 +120,9 @@
       "crossbowmen"
     ],
     "actual-name": "Crossbowman",
-    "unit-data": "Ranged unit. Strong vs. units at long range. Weak vs. Elite Skirmishers, Mangonels, and units at close range."
+    "general": "Ranged unit.",
+    "strength": "units at long range.",
+    "weakness": "Elite Skirmishers, Mangonels, and units at close range."
   },
   "12": {
     "aliases": [
@@ -109,7 +132,9 @@
       "cavalry archers"
     ],
     "actual-name": "Cavalry Archer",
-    "unit-data": "Mounted archer. Strong vs. slow units at long range. Weak vs. Elite Skirmishers and units at close range."
+    "general": "Mounted archer.",
+    "strength": "slow units at long range.",
+    "weakness": "Elite Skirmishers and units at close range."
   },
   "13": {
     "aliases": [
@@ -118,7 +143,9 @@
       "hand cannoneers"
     ],
     "actual-name": "Hand Cannoneer",
-    "unit-data": "Gunpowder unit with powerful attack, but inaccurate at long range. Strong vs. infantry. Weak vs. Elite Skirmishers and archers."
+    "general": "Gunpowder unit with powerful attack, but inaccurate at long range.",
+    "strength": "infantry.",
+    "weakness": "Elite Skirmishers and archers."
   },
   "14": {
     "aliases": [
@@ -127,17 +154,22 @@
       "elite skirmishers"
     ],
     "actual-name": "Elite Skirmisher",
-    "unit-data": "Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range."
+    "general": "Ranged anti-archer unit that cannot attack at close range.",
+    "strength": "archers.",
+    "weakness": "units at close range."
   },
   "15": {
     "aliases": [
       "skirmisher",
       "Skirmisher",
       "skirmishers",
-      "skirms"
+      "skirms",
+      "skirm"
     ],
     "actual-name": "Skirmisher",
-    "unit-data": "Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range."
+    "general": "Ranged anti-archer unit that cannot attack at close range.",
+    "strength": "archers.",
+    "weakness": "units at close range."
   },
   "16": {
     "aliases": [
@@ -146,7 +178,9 @@
       "trade cogs"
     ],
     "actual-name": "Trade Cog",
-    "unit-data": "Trade unit used for generating gold at another player's Dock. To trade, click the Trade Cog then right-click another player's Dock. Will return with gold to your Dock."
+    "general": "Trade unit used for generating gold at another player's Dock. To trade, click the Trade Cog then right-click another player's Dock. Will return with gold to your Dock.",
+    "strength": "nothing.",
+    "weakness": "everthing."
   },
   "17": {
     "aliases": [
@@ -155,7 +189,9 @@
       "fishing ships"
     ],
     "actual-name": "Fishing Ship",
-    "unit-data": "Gathers food from fish and Fish Traps. Builds Fish Traps."
+    "general": "Gathers food from fish and Fish Traps. Builds Fish Traps.",
+    "strength": "nothing.",
+    "weakness": "everthing."
   },
   "18": {
     "aliases": [
@@ -164,7 +200,9 @@
       "war galleys"
     ],
     "actual-name": "War Galley",
-    "unit-data": "All-purpose warship with ranged attack. Weak vs. Fire Ships."
+    "general": "All-purpose warship with ranged attack.",
+    "strength": "Strong vs buildings in the shoreline, melee units in the shoreline, Demolition Ships.",
+    "weakness": "Fire Ships."
   },
   "19": {
     "aliases": [
@@ -173,7 +211,9 @@
       "bombard cannons"
     ],
     "actual-name": "Bombard Cannon",
-    "unit-data": "Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units."
+    "general": "Siege weapon with long range.",
+    "strength": "buildings and siege weapons.",
+    "weakness": "melee units."
   },
   "20": {
     "aliases": [
@@ -184,7 +224,9 @@
       "ram"
     ],
     "actual-name": "Battering Ram",
-    "unit-data": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack."
+    "general": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+    "strength": "Buildings, Archers, Gunpowder units, Trebuchets.",
+    "weakness": "Weak vs Mangudai, Mangonels, melee units especially Magyar Huszars"
   },
   "21": {
     "aliases": [
@@ -193,7 +235,9 @@
       "mangonels"
     ],
     "actual-name": "Mangonel",
-    "unit-data": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground."
+    "general": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range.",
+    "strength": "tight groups of units. Can attack ground.",
+    "weakness": "Fast moving melee units especially Magyar Huszars and Eagle Warriors, Mangudai, Monks with Sancity and Redemption"
   },
   "22": {
     "aliases": [
@@ -202,7 +246,9 @@
       "scorpions"
     ],
     "actual-name": "Scorpion",
-    "unit-data": "Anti-unit siege weapon. Fires bolts that pierce multiple units. Strong vs. large groups of units. Weak vs. cavalry and siege weapons."
+    "general": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
+    "strength": "large groups of units.",
+    "weakness": "cavalry and siege weapons."
   },
   "23": {
     "aliases": [
@@ -212,7 +258,9 @@
       "trebs"
     ],
     "actual-name": "Trebuchet",
-    "unit-data": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Strong vs. buildings. Can attack ground and destroy trees."
+    "general": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range.",
+    "strength": "buildings. Can attack ground and destroy trees.",
+    "weakness": "Melee units (especially Magyar Huszars and Eagle Warriors), Mangudai, Rams, Bombard Cannons, Onagers"
   },
   "24": {
     "aliases": [
@@ -221,7 +269,9 @@
       "monks"
     ],
     "actual-name": "Monk",
-    "unit-data": "Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Strong vs. slow and non-ranged units. Weak vs. Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries."
+    "general": "Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons).",
+    "strength": "slow and non-ranged units.",
+    "weakness": "Light Cavalry and ranged units. Can collect Relics and bring them to Monasteries."
   },
   "25": {
     "aliases": [
@@ -230,7 +280,9 @@
       "trade carts"
     ],
     "actual-name": "Trade Cart",
-    "unit-data": "Trade unit used for generating gold at another player's Market. To trade, click the Trade Cart then right-click another player's Market. Will return with gold to your Market."
+    "general": "Trade unit used for generating gold at another player's Market. To trade, click the Trade Cart then right-click another player's Market. Will return with gold to your Market.",
+    "strength": "nothing.",
+    "weakness": "everything."
   },
   "26": {
     "aliases": [
@@ -239,7 +291,9 @@
       "cataphracts"
     ],
     "actual-name": "Cataphract",
-    "unit-data": "Byzantine unique cavalry unit. Strong vs. infantry. Weak vs. archers. "
+    "general": "Byzantine unique cavalry unit.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
   "27": {
     "aliases": [
@@ -248,7 +302,9 @@
       "chu ko nus"
     ],
     "actual-name": "Chu Ko Nu",
-    "unit-data": "Chinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons. "
+    "general": "Chinese unique archer with rapid-fire attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
   "28": {
     "aliases": [
@@ -257,7 +313,9 @@
       "mamelukes"
     ],
     "actual-name": "Mameluke",
-    "unit-data": "Saracen unique camel unit with ranged melee attack. Strong vs. cavalry. Weak vs. archers and Pikemen. "
+    "general": "Saracen unique camel unit with ranged melee attack.",
+    "strength": "cavalry.",
+    "weakness": "archers and Pikemen."
   },
   "29": {
     "aliases": [
@@ -266,7 +324,9 @@
       "huskarls"
     ],
     "actual-name": "Huskarl",
-    "unit-data": "Gothic unique infantry unit with high pierce armor. Strong vs. archers and buildings. Weak vs. cavalry. "
+    "general": "Gothic unique infantry unit with high pierce armor.",
+    "strength": "archers and buildings.",
+    "weakness": "cavalry."
   },
   "30": {
     "aliases": [
@@ -275,7 +335,9 @@
       "janissarys"
     ],
     "actual-name": "Janissary",
-    "unit-data": "Turkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers."
+    "general": "Turkish unique hand cannoneer with longer range and no minimum range.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
   "31": {
     "aliases": [
@@ -284,7 +346,9 @@
       "longboats"
     ],
     "actual-name": "Longboat",
-    "unit-data": "Viking unique ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings. "
+    "general": "Viking unique ship that fires multiple arrows.",
+    "strength": "War Galleys, land units, and buildings.",
+    "weakness": "Fire Ships (only in small groups), Demolition Ships, Samurai (in the shallows), towers, Castles, ranged siege units on the shoreline, Caravels (in large fleet battles)"
   },
   "32": {
     "aliases": [
@@ -293,7 +357,9 @@
       "longbowmans"
     ],
     "actual-name": "Longbowman",
-    "unit-data": "British unique archer with very long range. Strong vs. infantry. Weak vs. cavalry and Skirmishers. "
+    "general": "British unique archer with very long range.",
+    "strength": "infantry.",
+    "weakness": "cavalry and Skirmishers."
   },
   "33": {
     "aliases": [
@@ -302,7 +368,9 @@
       "mangudais"
     ],
     "actual-name": "Mangudai",
-    "unit-data": "Mongol unique cavalry archer with fast-firing attack. Strong vs. siege weapons and infantry. Weak vs. Skirmishers, Pikemen, and Camel Riders. "
+    "general": "Mongol unique cavalry archer with fast-firing attack.",
+    "strength": "siege weapons and infantry.",
+    "weakness": "Skirmishers, Pikemen, and Camel Riders."
   },
   "34": {
     "aliases": [
@@ -311,7 +379,9 @@
       "war elephants"
     ],
     "actual-name": "War Elephant",
-    "unit-data": "Persian unique unit. Slow and powerful cavalry. Strong vs. buildings and units at close range. Weak vs. Monks. "
+    "general": "Persian unique unit. Slow and powerful cavalry.",
+    "strength": "buildings and units at close range.",
+    "weakness": "Monks."
   },
   "35": {
     "aliases": [
@@ -320,7 +390,9 @@
       "samurais"
     ],
     "actual-name": "Samurai",
-    "unit-data": "Japanese unique infantry unit with fast attack. Strong vs. unique units and infantry. Weak vs. archers. "
+    "general": "Japanese unique infantry unit with fast attack.",
+    "strength": "unique units and infantry.",
+    "weakness": "archers."
   },
   "36": {
     "aliases": [
@@ -329,7 +401,9 @@
       "throwing axemans"
     ],
     "actual-name": "Throwing Axeman",
-    "unit-data": "Frankish unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons. "
+    "general": "Frankish unique infantry unit with ranged melee attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
   "37": {
     "aliases": [
@@ -338,7 +412,9 @@
       "teutonic knights"
     ],
     "actual-name": "Teutonic Knight",
-    "unit-data": "Teutonic unique infantry unit. Slow and powerful. Strong vs. melee units. Weak vs. archers and Scorpions. "
+    "general": "Teutonic unique infantry unit. Slow and powerful.",
+    "strength": "melee units.",
+    "weakness": "archers and Scorpions."
   },
   "38": {
     "aliases": [
@@ -347,7 +423,9 @@
       "woad raiders"
     ],
     "actual-name": "Woad Raider",
-    "unit-data": "Celtic unique infantry unit. Fast-moving. Strong vs. infantry and siege weapons. Weak vs. archers and cavalry. "
+    "general": "Celtic unique infantry unit. Fast-moving.",
+    "strength": "infantry and siege weapons.",
+    "weakness": "archers and cavalry."
   },
   "39": {
     "aliases": [
@@ -356,7 +434,9 @@
       "condottieros"
     ],
     "actual-name": "Condottiero",
-    "unit-data": "Fast anti-gunpowder infantry. Strong vs. gunpowder units. Weak vs. cavalry and archers. Trainable by Italians and their allies."
+    "general": "Fast anti-gunpowder infantry.",
+    "strength": "gunpowder units.",
+    "weakness": "cavalry and archers. Trainable by Italians and their allies."
   },
   "40": {
     "aliases": [
@@ -365,7 +445,9 @@
       "villagers"
     ],
     "actual-name": "Villager",
-    "unit-data": "Gathers resources. Builds and repairs buildings. Also repairs ships and siege weapons."
+    "general": "Gathers resources. Builds and repairs buildings. Also repairs ships and siege weapons.",
+    "strength": "nothing.",
+    "weakness": "everything."
   },
   "41": {
     "aliases": [
@@ -374,7 +456,9 @@
       "organ guns"
     ],
     "actual-name": "Organ Gun",
-    "unit-data": "Portuguese unique siege unit. Fires a volley of bullets. Strong vs. large groups of units. Weak vs. cavalry and Mangonels."
+    "general": "Portuguese unique siege unit. Fires a volley of bullets.",
+    "strength": "large groups of units.",
+    "weakness": "cavalry and Mangonels."
   },
   "42": {
     "aliases": [
@@ -383,7 +467,9 @@
       "elite organ guns"
     ],
     "actual-name": "Elite Organ Gun",
-    "unit-data": "Portuguese unique siege unit. Fires a volley of bullets. Strong vs. large groups of units. Weak vs. cavalry and Mangonels."
+    "general": "Portuguese unique siege unit. Fires a volley of bullets.",
+    "strength": "large groups of units.",
+    "weakness": "cavalry and Mangonels."
   },
   "43": {
     "aliases": [
@@ -392,7 +478,9 @@
       "caravels"
     ],
     "actual-name": "Caravel",
-    "unit-data": "Portuguese unique ship that fires bolts that pierce multiple units. Strong vs. large groups of ships. Weak vs. Fire Ships."
+    "general": "Portuguese unique ship that fires bolts that pierce multiple units.",
+    "strength": "large groups of ships.",
+    "weakness": "Fire Ships."
   },
   "44": {
     "aliases": [
@@ -401,7 +489,9 @@
       "elite caravels"
     ],
     "actual-name": "Elite Caravel",
-    "unit-data": "Portuguese unique ship that fires bolts that pierce multiple units. Strong vs. large groups of ships. Weak vs. Fire Ships."
+    "general": "Portuguese unique ship that fires bolts that pierce multiple units.",
+    "strength": "large groups of ships.",
+    "weakness": "Fire Ships."
   },
   "45": {
     "aliases": [
@@ -410,7 +500,9 @@
       "camel archers"
     ],
     "actual-name": "Camel Archer",
-    "unit-data": "Berber unique mounted archer. Strong vs. Cavalry Archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Berber unique mounted archer.",
+    "strength": "Cavalry Archers and infantry.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
   "46": {
     "aliases": [
@@ -419,7 +511,9 @@
       "elite camel archers"
     ],
     "actual-name": "Elite Camel Archer",
-    "unit-data": "Berber unique mounted archer. Strong vs. Cavalry Archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Berber unique mounted archer.",
+    "strength": "Cavalry Archers and infantry.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
   "47": {
     "aliases": [
@@ -428,7 +522,9 @@
       "genitours"
     ],
     "actual-name": "Genitour",
-    "unit-data": "Mounted skirmisher. Strong vs. archers. Weak vs. units at close range. Trainable by Berbers and their allies."
+    "general": "Mounted skirmisher.",
+    "strength": "archers.",
+    "weakness": "units at close range. Trainable by Berbers and their allies."
   },
   "48": {
     "aliases": [
@@ -437,7 +533,9 @@
       "elite genitours"
     ],
     "actual-name": "Elite Genitour",
-    "unit-data": "Mounted skirmisher. Strong vs. archers. Weak vs. units at close range. Trainable by Berbers and their allies."
+    "general": "Mounted skirmisher.",
+    "strength": "archers.",
+    "weakness": "units at close range. Trainable by Berbers and their allies."
   },
   "49": {
     "aliases": [
@@ -446,7 +544,9 @@
       "gbetos"
     ],
     "actual-name": "Gbeto",
-    "unit-data": "Malian unique infantry unit with ranged melee attack. Fast-moving. Strong vs. infantry. Weak vs. archers and siege weapons."
+    "general": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
   "50": {
     "aliases": [
@@ -455,7 +555,9 @@
       "elite gbetos"
     ],
     "actual-name": "Elite Gbeto",
-    "unit-data": "Malian unique infantry unit with ranged melee attack. Fast-moving. Strong vs. infantry. Weak vs. archers and siege weapons."
+    "general": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
   "51": {
     "aliases": [
@@ -464,225 +566,200 @@
       "shotel warriors"
     ],
     "actual-name": "Shotel Warrior",
-    "unit-data": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving. Strong vs. infantry. Weak vs. archers."
+    "general": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
-  "53": {
+  "52": {
     "aliases": [
       "elite shotel warrior",
       "Elite Shotel Warrior",
       "elite shotel warriors"
     ],
     "actual-name": "Elite Shotel Warrior",
-    "unit-data": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving. Strong vs. infantry. Weak vs. archers."
+    "general": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
-  "54": {
+  "53": {
     "aliases": [
       "ballista elephant",
       "Ballista Elephant",
       "ballista elephants"
     ],
     "actual-name": "Ballista Elephant",
-    "unit-data": "Khmer unique elephant equipped with a Scorpion. Can destroy trees. Strong vs. infantry and archers. Weak vs. cavalry and siege weapons."
+    "general": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+    "strength": "infantry and archers.",
+    "weakness": "cavalry and siege weapons."
   },
-  "55": {
+  "54": {
     "aliases": [
       "elite ballista elephant",
       "Elite Ballista Elephant",
       "elite ballista elephants"
     ],
     "actual-name": "Elite Ballista Elephant",
-    "unit-data": "Khmer unique elephant equipped with a Scorpion. Can destroy trees. Strong vs. infantry and archers. Weak vs. cavalry and siege weapons."
+    "general": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+    "strength": "infantry and archers.",
+    "weakness": "cavalry and siege weapons."
   },
-  "56": {
+  "55": {
     "aliases": [
       "karambit warrior",
       "Karambit Warrior",
       "karambit warriors"
     ],
     "actual-name": "Karambit Warrior",
-    "unit-data": "Malay unique infantry unit. Cheap and only takes half a population unit. Strong in high numbers. Weak vs. cavalry and archers."
+    "general": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+    "strength": "Strong in high numbers.",
+    "weakness": "cavalry and archers."
   },
-  "58": {
+  "56": {
     "aliases": [
       "elite karambit warrior",
       "Elite Karambit Warrior",
       "elite karambit warriors"
     ],
     "actual-name": "Elite Karambit Warrior",
-    "unit-data": "Malay unique infantry unit. Cheap and only takes half a population unit. Strong in high numbers. Weak vs. cavalry and archers."
+    "general": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+    "strength": "Strong in high numbers.",
+    "weakness": "cavalry and archers."
   },
-  "59": {
+  "57": {
     "aliases": [
       "arambai",
       "Arambai",
       "arambais"
     ],
     "actual-name": "Arambai",
-    "unit-data": "Burmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers."
+    "general": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+    "strength": "infantry and cavalry.",
+    "weakness": "archers."
   },
-  "60": {
+  "58": {
     "aliases": [
       "elite arambai",
       "Elite Arambai",
       "elite arambais"
     ],
     "actual-name": "Elite Arambai",
-    "unit-data": "Burmese unique cavalry archer with a powerful but inaccurate dart attack. Strong vs. infantry and cavalry. Weak vs. archers."
+    "general": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+    "strength": "infantry and cavalry.",
+    "weakness": "archers."
   },
-  "61": {
+  "59": {
     "aliases": [
       "guard tower",
       "Guard Tower",
       "guard towers"
     ],
     "actual-name": "Guard Tower",
-    "unit-data": "Tower with a ranged attack. Units can garrison inside for protection. Ranged Units and Villagers shoot additional projectiles. Strong vs. archers. Weak vs.units at close range, especially Rams."
+    "general": "Tower with a ranged attack. Units can garrison inside for protection. Ranged Units and Villagers shoot additional projectiles.",
+    "strength": "archers.",
+    "weakness": "Weak vs.units at close range, especially Rams."
   },
-  "62": {
+  "60": {
     "aliases": [
       "keep",
       "Keep",
       "keeps"
     ],
     "actual-name": "Keep",
-    "unit-data": "Tower with a ranged attack. Units can garrison inside for protection. Ranged Units and Villagers shoot additional projectiles. Strong vs. archers. Weak vs.units at close range, especially Rams."
+    "general": "Tower with a ranged attack. Units can garrison inside for protection. Ranged Units and Villagers shoot additional projectiles.",
+    "strength": "archers.",
+    "weakness": "Weak vs.units at close range, especially Rams."
   },
-  "63": {
+  "61": {
     "aliases": [
       "bombard tower",
       "Bombard Tower",
       "bombard towers"
     ],
     "actual-name": "Bombard Tower",
-    "unit-data": "Gunpowder tower with a powerful ranged attack. Units can garrison inside for protection. Strong vs. ships."
+    "general": "Gunpowder tower with a powerful ranged attack. Units can garrison inside for protection.",
+    "strength": "ships, most units and buildings.",
+    "weakness": "Weak vs Rams, units with longer range, massed units."
   },
-  "64": {
-    "aliases": [
-      "feitoria",
-      "Feitoria",
-      "feitorias"
-    ],
-    "actual-name": "Feitoria",
-    "unit-data": "Economic building. Generates resources without the need for villagers. Unique building of the Portuguese. Requires 20 population."
-  },
-  "65": {
+  "62": {
     "aliases": [
       "fire galley",
       "Fire Galley",
       "fire galleys"
     ],
     "actual-name": "Fire Galley",
-    "unit-data": "Warship that spews fire at close range. Strong vs. Galleys. Weak vs. Demolition Rafts."
+    "general": "Warship that spews fire at close range.",
+    "strength": "Galleys.",
+    "weakness": "Demolition Rafts."
   },
-  "66": {
+  "63": {
     "aliases": [
       "demolition raft",
       "Demolition Raft",
-      "demolition rafts"
+      "demolition rafts",
+      "demo raft",
+      "demo rafts"
     ],
     "actual-name": "Demolition Raft",
-    "unit-data": "Demolition ship armed with explosives. Strong vs. Fire Galleys and buildings. Self-destructs when used."
+    "general": "Demolition ship armed with explosives.",
+    "strength": "Fire Galleys and buildings. Self-destructs when used.",
+    "weakness": "Towers, ranged units on the shoreline"
   },
-  "67": {
+  "64": {
     "aliases": [
       "rattan archer",
       "Rattan Archer",
       "rattan archers"
     ],
     "actual-name": "Rattan Archer",
-    "unit-data": "Vietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers."
+    "general": "Vietnamese unique archer with high pierce armor.",
+    "strength": "archers and infantry.",
+    "weakness": "cavalry and Skirmishers."
   },
-  "68": {
+  "65": {
     "aliases": [
       "elite rattan archer",
       "Elite Rattan Archer",
       "elite rattan archers"
     ],
     "actual-name": "Elite Rattan Archer",
-    "unit-data": "Vietnamese unique archer with high pierce armor. Strong vs. archers and infantry. Weak vs. cavalry and Skirmishers."
+    "general": "Vietnamese unique archer with high pierce armor.",
+    "strength": "archers and infantry.",
+    "weakness": "cavalry and Skirmishers."
   },
-  "69": {
+  "66": {
     "aliases": [
       "battle elephant",
       "Battle Elephant",
       "battle elephants"
     ],
     "actual-name": "Battle Elephant",
-    "unit-data": "Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen."
+    "general": "Slow and heavy cavalry.",
+    "strength": "cavalry, infantry, and archers.",
+    "weakness": "Monks and Pikemen."
   },
-  "70": {
+  "67": {
     "aliases": [
       "elite battle elephant",
       "Elite Battle Elephant",
       "elite battle elephants"
     ],
     "actual-name": "Elite Battle Elephant",
-    "unit-data": "Slow and heavy cavalry. Strong vs. cavalry, infantry, and archers. Weak vs. Monks and Pikemen."
+    "general": "Slow and heavy cavalry.",
+    "strength": "cavalry, infantry, and archers.",
+    "weakness": "Monks and Pikemen."
   },
-  "72": {
-    "aliases": [
-      "gate",
-      "Gate",
-      "gates"
-    ],
-    "actual-name": "Gate",
-    "unit-data": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks."
-  },
-  "73": {
-    "aliases": [
-      "palisade gate",
-      "Palisade Gate",
-      "palisade gates"
-    ],
-    "actual-name": "Palisade Gate",
-    "unit-data": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks."
-  },
-  "74": {
+  "68": {
     "aliases": [
       "imperial skirmisher",
       "Imperial Skirmisher",
       "imperial skirmishers"
     ],
     "actual-name": "Imperial Skirmisher",
-    "unit-data": "Ranged anti-archer unit that cannot attack at close range. Strong vs. archers. Weak vs. units at close range. Trainable by Vietnamese and their allies."
+    "general": "Ranged anti-archer unit that cannot attack at close range.",
+    "strength": "archers.",
+    "weakness": "units at close range. Trainable by Vietnamese and their allies."
   },
-  "75": {
-    "aliases": [
-      "palisade wall",
-      "Palisade Wall",
-      "palisade walls"
-    ],
-    "actual-name": "Palisade Wall",
-    "unit-data": "Wooden wall that is cheap and easy to build. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks."
-  },
-  "76": {
-    "aliases": [
-      "stone wall",
-      "Stone Wall",
-      "stone walls"
-    ],
-    "actual-name": "Stone Wall",
-    "unit-data": "Stone wall that is difficult to breach without siege weapons. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks."
-  },
-  "77": {
-    "aliases": [
-      "fortified wall",
-      "Fortified Wall",
-      "fortified walls"
-    ],
-    "actual-name": "Fortified Wall",
-    "unit-data": "Stone wall that is difficult to breach without siege weapons. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks."
-  },
-  "78": {
-    "aliases": [
-      "harbor",
-      "Harbor",
-      "harbors"
-    ],
-    "actual-name": "Harbor",
-    "unit-data": "Used to build and upgrade ships, deposit food from Fishing Ships, and trade with other players by sea. Unique building of the Malay. Automatically attacks enemies within range."
-  },
-  "79": {
+  "69": {
     "aliases": [
       "cannon galleon",
       "Cannon Galleon",
@@ -691,72 +768,88 @@
       "galleon"
     ],
     "actual-name": "Cannon Galleon",
-    "unit-data": "Anti-building siege warship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units."
+    "general": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
+    "strength": "buildings.",
+    "weakness": "other units."
   },
-  "80": {
+  "70": {
     "aliases": [
       "konnik",
       "Konnik",
       "konniks"
     ],
     "actual-name": "Konnik",
-    "unit-data": "Bulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "81": {
+  "71": {
     "aliases": [
       "capped ram",
       "Capped Ram",
       "capped rams"
     ],
     "actual-name": "Capped Ram",
-    "unit-data": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack."
+    "general": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+    "strength": "Buildings, Trebuchets, Archers.",
+    "weakness": "Mangudai, Onagers, melee units especially Magyar Huszars"
   },
-  "82": {
+  "72": {
     "aliases": [
       "elite konnik",
       "Elite Konnik",
       "elite konniks"
     ],
     "actual-name": "Elite Konnik",
-    "unit-data": "Bulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "83": {
+  "73": {
     "aliases": [
       "galleon",
       "Galleon",
       "galleons"
     ],
     "actual-name": "Galleon",
-    "unit-data": "All-purpose warship with ranged attack. Weak vs. Fire Ships."
+    "general": "All-purpose warship with ranged attack.",
+    "strength": "Strong vs Transport Ships, Fishing Ships, Fire Galleys, buildings in the shoreline, melee units in the shallows.",
+    "weakness": "Fire Ships."
   },
-  "84": {
+  "74": {
     "aliases": [
       "keshik",
       "Keshik",
       "keshiks"
     ],
     "actual-name": "Keshik",
-    "unit-data": "Tatar unique cavalry unit that generates gold when fighting other units."
+    "general": "Tatar unique cavalry unit that generates gold when fighting other units.",
+    "strength": "Infantry, Archers, Villagers, Siege weapons, Light Cavalry.",
+    "weakness": "Boyars, Pikemen, Kamayuks, Berserks, Genoese Crossbowmen, Teutonic Knights, Mamelukes, Camel Riders, Monks, War Elephants, Knights"
   },
-  "85": {
+  "75": {
     "aliases": [
       "elite keshik",
       "Elite Keshik",
       "elite keshiks"
     ],
     "actual-name": "Elite Keshik",
-    "unit-data": "Tatar unique cavalry unit that generates gold when fighting other units."
+    "general": "Tatar unique cavalry unit that generates gold when fighting other units.",
+    "strength": "Infantry, Archers, Villagers, Siege weapons, Light Cavalry.",
+    "weakness": "Boyars, Pikemen, Kamayuks, Berserks, Genoese Crossbowmen, Teutonic Knights, Mamelukes, Camel Riders, Monks, War Elephants, Knights"
   },
-  "86": {
+  "76": {
     "aliases": [
       "kipchak",
       "Kipchak",
       "kipchaks"
     ],
     "actual-name": "Kipchak",
-    "unit-data": "Cuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers."
+    "general": "Cuman unique cavalry archer with rapid-fire attack.",
+    "strength": "infantry.",
+    "weakness": "Skirmishers."
   },
-  "87": {
+  "77": {
     "aliases": [
       "scout cavalry",
       "Scout Cavalry",
@@ -764,45 +857,55 @@
       "scout"
     ],
     "actual-name": "Scout Cavalry",
-    "unit-data": "Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders."
+    "general": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "88": {
+  "78": {
     "aliases": [
       "elite kipchak",
       "Elite Kipchak",
       "elite kipchaks"
     ],
     "actual-name": "Elite Kipchak",
-    "unit-data": "Cuman unique cavalry archer with rapid-fire attack. Strong vs. infantry. Weak vs. Skirmishers."
+    "general": "Cuman unique cavalry archer with rapid-fire attack.",
+    "strength": "infantry.",
+    "weakness": "Skirmishers."
   },
-  "89": {
+  "79": {
     "aliases": [
       "leitis",
       "Leitis",
       "leitiss"
     ],
     "actual-name": "Leitis",
-    "unit-data": "Lithuanian unique cavalry unit with attack that ignores armor. Strong vs. armored units."
+    "general": "Lithuanian unique cavalry unit with attack that ignores armor.",
+    "strength": "Melee units (especially Serjeants, Teutonic Knights, and Boyars).",
+    "weakness": "Pikemen, Kamayuks, Genoese Crossbowmen, Mamelukes, Camel Riders, Monks, War Elephants, Battle Elephants, Samurai, large groups of archers."
   },
-  "90": {
+  "80": {
     "aliases": [
       "elite leitis",
       "Elite Leitis",
       "elite leitiss"
     ],
     "actual-name": "Elite Leitis",
-    "unit-data": "Lithuanian unique cavalry unit with attack that ignores armor. Strong vs. armored units."
+    "general": "Lithuanian unique cavalry unit with attack that ignores armor.",
+    "strength": "Melee units (especially Serjeants, Teutonic Knights, and Boyars).",
+    "weakness": "Pikemen, Kamayuks, Genoese Crossbowmen, Mamelukes, Camel Riders, Monks, War Elephants, Battle Elephants, Samurai, large groups of archers."
   },
-  "92": {
+  "81": {
     "aliases": [
       "flaming camel",
       "Flaming Camel",
       "flaming camels"
     ],
     "actual-name": "Flaming Camel",
-    "unit-data": "Incendiary camel loaded with flammable hay and brush. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry. Self-destructs when used."
+    "general": "Incendiary camel loaded with flammable hay and brush.",
+    "strength": "mounted units, especially elephants.",
+    "weakness": "archers and infantry. Self-destructs when used."
   },
-  "93": {
+  "82": {
     "aliases": [
       "trebuchet",
       "Trebuchet",
@@ -811,18 +914,22 @@
       "trebs"
     ],
     "actual-name": "Trebuchet",
-    "unit-data": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Strong vs. buildings. Can attack ground and destroy trees."
+    "general": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range.",
+    "strength": "buildings. Can attack ground and destroy trees.",
+    "weakness": "Melee units (especially Magyar Huszars and Eagle Warriors), Mangudai, Rams, Bombard Cannons, Onagers"
   },
-  "94": {
+  "83": {
     "aliases": [
       "urumi swordsman",
       "Urumi Swordsman",
       "urumi swordsmans"
     ],
     "actual-name": "Urumi Swordsman",
-    "unit-data": "Dravidian unique infantry unit which can charge its attack. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "Dravidian unique infantry unit which can charge its attack.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "95": {
+  "84": {
     "aliases": [
       "pikeman",
       "Pikeman",
@@ -830,9 +937,11 @@
       "pikes"
     ],
     "actual-name": "Pikeman",
-    "unit-data": "Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry."
+    "general": "Anti-cavalry infantry unit.",
+    "strength": "mounted units, especially elephants.",
+    "weakness": "archers and infantry."
   },
-  "96": {
+  "85": {
     "aliases": [
       "halberdier",
       "Halberdier",
@@ -840,18 +949,22 @@
       "halbs"
     ],
     "actual-name": "Halberdier",
-    "unit-data": "Anti-cavalry infantry unit. Strong vs. mounted units, especially elephants. Weak vs. archers and infantry."
+    "general": "Anti-cavalry infantry unit.",
+    "strength": "mounted units, especially elephants.",
+    "weakness": "archers and infantry."
   },
-  "97": {
+  "86": {
     "aliases": [
       "two-handed swordsman",
       "Two-Handed Swordsman",
       "two-handed swordsmans"
     ],
     "actual-name": "Two-Handed Swordsman",
-    "unit-data": "All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "All-purpose infantry unit.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "98": {
+  "87": {
     "aliases": [
       "heavy cavalry archer",
       "Heavy Cavalry Archer",
@@ -859,63 +972,77 @@
       "heavy cav archers"
     ],
     "actual-name": "Heavy Cavalry Archer",
-    "unit-data": "Mounted archer. Strong vs. slow units at long range. Weak vs. Elite Skirmishers and units at close range."
+    "general": "Mounted archer.",
+    "strength": "slow units at long range.",
+    "weakness": "Elite Skirmishers and units at close range."
   },
-  "99": {
+  "88": {
     "aliases": [
       "elite urumi swordsman",
       "Elite Urumi Swordsman",
       "elite urumi swordsmans"
     ],
     "actual-name": "Elite Urumi Swordsman",
-    "unit-data": "Dravidian unique infantry unit which can charge its attack. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "Dravidian unique infantry unit which can charge its attack.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "100": {
+  "89": {
     "aliases": [
       "camel rider",
       "Camel Rider",
       "camel riders"
     ],
     "actual-name": "Camel Rider",
-    "unit-data": "Fast anti-cavalry unit. Strong vs. cavalry. Weak vs. Spearmen, Monks, and archers."
+    "general": "Fast anti-cavalry unit.",
+    "strength": "cavalry.",
+    "weakness": "Spearmen, Monks, and archers."
   },
-  "101": {
+  "90": {
     "aliases": [
       "heavy camel rider",
       "Heavy Camel Rider",
       "heavy camel riders"
     ],
     "actual-name": "Heavy Camel Rider",
-    "unit-data": "Fast anti-cavalry unit. Strong vs. cavalry. Weak vs. Pikemen, Monks, and archers."
+    "general": "Fast anti-cavalry unit.",
+    "strength": "cavalry.",
+    "weakness": "Pikemen, Monks, and archers."
   },
-  "102": {
+  "91": {
     "aliases": [
       "arbalester",
       "Arbalester",
       "arbalesters"
     ],
     "actual-name": "Arbalester",
-    "unit-data": "Ranged unit. Strong vs. units at long range. Weak vs. Elite Skirmishers, Onagers, and units at close range."
+    "general": "Ranged unit.",
+    "strength": "units at long range.",
+    "weakness": "Elite Skirmishers, Onagers, and units at close range."
   },
-  "103": {
+  "92": {
     "aliases": [
       "imperial camel rider",
       "Imperial Camel Rider",
       "imperial camel riders"
     ],
     "actual-name": "Imperial Camel Rider",
-    "unit-data": "Hindustani unique anti-cavalry unit. Fast-moving. Strong vs. cavalry. Weak vs. Pikemen, Monks, and archers."
+    "general": "Hindustani unique anti-cavalry unit. Fast-moving.",
+    "strength": "cavalry.",
+    "weakness": "Pikemen, Monks, and archers."
   },
-  "104": {
+  "93": {
     "aliases": [
       "chakram thrower",
       "Chakram Thrower",
       "chakram throwers"
     ],
     "actual-name": "Chakram Thrower",
-    "unit-data": "Gurjara unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons. "
+    "general": "Gurjara unique infantry unit with ranged melee attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "105": {
+  "94": {
     "aliases": [
       "demolition ship",
       "Demolition Ship",
@@ -924,9 +1051,11 @@
       "demo ships"
     ],
     "actual-name": "Demolition Ship",
-    "unit-data": "Demolition ship armed with explosives. Strong vs. Fire Ships and buildings. Self-destructs when used."
+    "general": "Demolition ship armed with explosives.",
+    "strength": "Fire Ships and buildings. Self-destructs when used.",
+    "weakness": "Turtle Ships, towers, Castles, ranged units on the shoreline"
   },
-  "106": {
+  "95": {
     "aliases": [
       "heavy demolition ship",
       "Heavy Demolition Ship",
@@ -935,144 +1064,165 @@
       "heavy demo ships"
     ],
     "actual-name": "Heavy Demolition Ship",
-    "unit-data": "Demolition ship armed with explosives. Strong vs. Fire Ships and buildings. Self-destructs when used."
+    "general": "Demolition ship armed with explosives.",
+    "strength": "Fire Ships and buildings. Self-destructs when used.",
+    "weakness": "Turtle Ships, towers, Castles, ranged units on the shoreline"
   },
-  "107": {
+  "96": {
     "aliases": [
       "fire ship",
       "Fire Ship",
       "fire ships"
     ],
     "actual-name": "Fire Ship",
-    "unit-data": "Warship that spews fire at close range. Strong vs. War Galleys. Weak vs. Demolition Ships."
+    "general": "Warship that spews fire at close range.",
+    "strength": "War Galleys.",
+    "weakness": "Demolition Ships."
   },
-  "108": {
+  "97": {
     "aliases": [
       "elite chakram thrower",
       "Elite Chakram Thrower",
       "elite chakram throwers"
     ],
     "actual-name": "Elite Chakram Thrower",
-    "unit-data": "Gurjara unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons. "
+    "general": "Gurjara unique infantry unit with ranged melee attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "109": {
+  "98": {
     "aliases": [
       "armored elephant",
       "Armored Elephant",
       "armored elephants"
     ],
     "actual-name": "Armored Elephant",
-    "unit-data": "Anti-building cavalry unit. Resistant to most ranged attacks. Weak vs. melee units. Cannot be converted by enemy Monks from distance."
+    "general": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+    "strength": "Buildings, Archers, Trebuchets.",
+    "weakness": "Infantry, Flaming Camels, cavalry, Mangudai, Mangonels, Monks"
   },
-  "110": {
+  "99": {
     "aliases": [
       "fast fire ship",
       "Fast Fire Ship",
       "fast fire ships"
     ],
     "actual-name": "Fast Fire Ship",
-    "unit-data": "Warship that spews fire at close range. Strong vs. War Galleys. Weak vs. Demolition Ships."
+    "general": "Warship that spews fire at close range.",
+    "strength": "War Galleys.",
+    "weakness": "Demolition Ships."
   },
-  "111": {
+  "100": {
     "aliases": [
       "siege elephant",
       "Siege Elephant",
       "siege elephants"
     ],
     "actual-name": "Siege Elephant",
-    "unit-data": "Anti-building cavalry unit. Resistant to most ranged attacks. Weak vs. melee units. Cannot be converted by enemy Monks from distance."
+    "general": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+    "strength": "Buildings, melee units.",
+    "weakness": "Pikemen, Kamayuks, Genoese Crossbowmen, Mamelukes, Camel Riders, Cavalry Archers, Monks, Mangonels, Scorpions, Flaming Camels."
   },
-  "112": {
+  "101": {
     "aliases": [
       "ghulam",
       "Ghulam",
       "ghulams"
     ],
     "actual-name": "Ghulam",
-    "unit-data": "Hindustani unique infantry unit that thrusts its spear through multiple targets. Strong vs. archers. Weak vs. cavalry. "
+    "general": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
+    "strength": "archers.",
+    "weakness": "cavalry."
   },
-  "113": {
+  "102": {
     "aliases": [
       "elite ghulam",
       "Elite Ghulam",
       "elite ghulams"
     ],
     "actual-name": "Elite Ghulam",
-    "unit-data": "Hindustani unique infantry unit that thrusts its spear through multiple targets. Strong vs. archers. Weak vs. cavalry. "
+    "general": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
+    "strength": "archers.",
+    "weakness": "cavalry."
   },
-  "114": {
+  "103": {
     "aliases": [
       "thirisadai",
       "Thirisadai",
       "thirisadais"
     ],
     "actual-name": "Thirisadai",
-    "unit-data": "Dravidian unique warship that fires multiple projectiles. Strong vs. warships."
+    "general": "Dravidian unique warship that fires multiple projectiles.",
+    "strength": "Galleons, Cannon Galleons, Caravels, units and buildings on the shoreline.",
+    "weakness": "\tCastles, towers, Fire Ships (if massed), Demolition Ships (equal resources), Longboats (equal resources), Turtle Ships, Onagers, Bombard Cannons, Monks"
   },
-  "115": {
+  "104": {
     "aliases": [
       "galley",
       "Galley",
       "galleys"
     ],
     "actual-name": "Galley",
-    "unit-data": "All-purpose warship with ranged attack. Weak vs. Fire Galleys."
+    "general": "All-purpose warship with ranged attack.",
+    "strength": "Strong vs Transport Ships, Fishing Ships, buildings in the shoreline, melee units in the shoreline.",
+    "weakness": "Fire Galleys, towers, Castles, ranged units on the shoreline."
   },
-  "116": {
+  "105": {
     "aliases": [
       "shrivamsha rider",
       "Shrivamsha Rider",
       "shrivamsha riders"
     ],
     "actual-name": "Shrivamsha Rider",
-    "unit-data": "Gurjara unique light cavalry unit which can dodge projectiles. Strong vs. archers. Weak vs. Pikemen and Camel Riders."
+    "general": "Gurjara unique light cavalry unit which can dodge projectiles.",
+    "strength": "archers.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "117": {
+  "106": {
     "aliases": [
       "elite shrivamsha rider",
       "Elite Shrivamsha Rider",
       "elite shrivamsha riders"
     ],
     "actual-name": "Elite Shrivamsha Rider",
-    "unit-data": "Gurjara unique light cavalry unit which can dodge projectiles. Strong vs. archers. Weak vs. Pikemen and Camel Riders."
+    "general": "Gurjara unique light cavalry unit which can dodge projectiles.",
+    "strength": "archers.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "118": {
+  "107": {
     "aliases": [
       "heavy scorpion",
       "Heavy Scorpion",
       "heavy scorpions"
     ],
     "actual-name": "Heavy Scorpion",
-    "unit-data": "Anti-unit siege weapon. Fires bolts that pierce multiple units. Strong vs. large groups of units. Weak vs. cavalry and siege weapons."
+    "general": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
+    "strength": "large groups of units.",
+    "weakness": "cavalry and siege weapons."
   },
-  "119": {
-    "aliases": [
-      "caravanserai",
-      "Caravanserai",
-      "caravanserais"
-    ],
-    "actual-name": "Caravanserai",
-    "unit-data": "Economic building. Heals and increases speed of Trade Carts in a 10 tile radius. Unique building of the Hindustanis."
-  },
-  "120": {
+  "108": {
     "aliases": [
       "camel scout",
       "Camel Scout",
       "camel scouts"
     ],
     "actual-name": "Camel Scout",
-    "unit-data": "Gurjara unique scout unit. Strong vs. cavalry. Weak vs. Pikemen, Monks, and archers."
+    "general": "Gurjara unique scout unit.",
+    "strength": "cavalry.",
+    "weakness": "Pikemen, Monks, and archers."
   },
-  "121": {
+  "109": {
     "aliases": [
       "transport ship",
       "Transport Ship",
       "transport ships"
     ],
     "actual-name": "Transport Ship",
-    "unit-data": "Used to move units across water. Select the units you want to transport, then right-click on the Transport Ship to board them. Use the Unload button to unload units on the shore."
+    "general": "Used to move units across water. Select the units you want to transport, then right-click on the Transport Ship to board them. Use the Unload button to unload units on the shore.",
+    "strength": "nothing.",
+    "weakness": "everything."
   },
-  "122": {
+  "110": {
     "aliases": [
       "light cavalry",
       "Light Cavalry",
@@ -1081,609 +1231,745 @@
       "light cavs"
     ],
     "actual-name": "Light Cavalry",
-    "unit-data": "Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders."
+    "general": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "123": {
+  "111": {
     "aliases": [
       "siege tower",
       "Siege Tower",
       "siege towers"
     ],
     "actual-name": "Siege Tower",
-    "unit-data": "Quick land transport used to unload units over enemy walls. Resistant to archer attack. Cannot be used by mounted units."
+    "general": "Quick land transport used to unload units over enemy walls. Resistant to archer attack. Cannot be used by mounted units.",
+    "strength": "Archers, Walls.",
+    "weakness": "Melee units, especially Magyar Huszars and Eagle Warriors, Mangudai, Mangonels, Bombard Cannons"
   },
-  "124": {
+  "112": {
     "aliases": [
       "siege ram",
       "Siege Ram",
       "siege rams"
     ],
     "actual-name": "Siege Ram",
-    "unit-data": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack."
+    "general": "Anti-building siege weapon. Resistant to most ranged attacks. Garrisoned infantry increase speed and attack.",
+    "strength": "Strong vs Buildings, Archers, Gunpowder units, Trebuchets.",
+    "weakness": "Weak vs Mangudai, Mangonels, melee units especially Magyar Huszars."
   },
-  "125": {
+  "113": {
     "aliases": [
       "boyar",
       "Boyar",
       "boyars"
     ],
     "actual-name": "Boyar",
-    "unit-data": "Slavic unique cavalry unit. Resistant to melee attack."
+    "general": "Slavic unique cavalry unit. Resistant to melee attack.",
+    "strength": "Strong vs Skirmishers, melee units, siege weapons.",
+    "weakness": "Pikemen, Kamayuks, Teutonic Knights, Mamelukes, Camel Riders, Monks, War Elephants, Genoese Crossbowmen, Samurai, Leiciai, Obuchs."
   },
-  "126": {
+  "114": {
     "aliases": [
       "onager",
       "Onager",
       "onagers"
     ],
     "actual-name": "Onager",
-    "unit-data": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground and destroy trees."
+    "general": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range.",
+    "strength": "tight groups of units. Can attack ground.",
+    "weakness": "Fast moving melee units especially Magyar Huszars and Eagle Warriors, Mangudai, Monks with Sancity and Redemption"
   },
-  "127": {
+  "115": {
     "aliases": [
       "elite boyar",
       "Elite Boyar",
       "elite boyars"
     ],
     "actual-name": "Elite Boyar",
-    "unit-data": "Slavic unique cavalry unit. Resistant to melee attack."
+    "general": "Slavic unique cavalry unit. Resistant to melee attack.",
+    "strength": "Strong vs Skirmishers, melee units, siege weapons.",
+    "weakness": "Pikemen, Kamayuks, Teutonic Knights, Mamelukes, Camel Riders, Monks, War Elephants, Genoese Crossbowmen, Samurai, Leiciai, Obuchs."
   },
-  "128": {
+  "116": {
     "aliases": [
       "elite cataphract",
       "Elite Cataphract",
       "elite cataphracts"
     ],
     "actual-name": "Elite Cataphract",
-    "unit-data": "Byzantine unique cavalry unit. Strong vs. infantry. Weak vs. archers."
+    "general": "Byzantine unique cavalry unit.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
-  "129": {
+  "117": {
     "aliases": [
       "elite chu ko nu",
       "Elite Chu Ko Nu",
       "elite chu ko nus"
     ],
     "actual-name": "Elite Chu Ko Nu",
-    "unit-data": "Chinese unique archer with rapid-fire attack. Strong vs. infantry. Weak vs. archers and siege weapons."
+    "general": "Chinese unique archer with rapid-fire attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "130": {
+  "118": {
     "aliases": [
       "elite mameluke",
       "Elite Mameluke",
       "elite mamelukes"
     ],
     "actual-name": "Elite Mameluke",
-    "unit-data": "Saracen unique camel unit with ranged melee attack. Strong vs. cavalry. Weak vs. archers."
+    "general": "Saracen unique camel unit with ranged melee attack.",
+    "strength": "cavalry.",
+    "weakness": "archers."
   },
-  "131": {
+  "119": {
     "aliases": [
       "elite huskarl",
       "Elite Huskarl",
       "elite huskarls"
     ],
     "actual-name": "Elite Huskarl",
-    "unit-data": "Gothic unique infantry unit with high pierce armor. Strong vs. archers and buildings. Weak vs. cavalry."
+    "general": "Gothic unique infantry unit with high pierce armor.",
+    "strength": "archers and buildings.",
+    "weakness": "cavalry."
   },
-  "132": {
+  "120": {
     "aliases": [
       "elite janissary",
       "Elite Janissary",
       "elite janissarys"
     ],
     "actual-name": "Elite Janissary",
-    "unit-data": "Turkish unique hand cannoneer with longer range and no minimum range. Strong vs. infantry. Weak vs. archers."
+    "general": "Turkish unique hand cannoneer with longer range and no minimum range.",
+    "strength": "infantry.",
+    "weakness": "archers."
   },
-  "133": {
+  "121": {
     "aliases": [
       "elite longbowman",
       "Elite Longbowman",
       "elite longbowmans"
     ],
     "actual-name": "Elite Longbowman",
-    "unit-data": "British unique archer with very long range. Strong vs. infantry. Weak vs. cavalry and Skirmishers."
+    "general": "British unique archer with very long range.",
+    "strength": "infantry.",
+    "weakness": "cavalry and Skirmishers."
   },
-  "134": {
+  "122": {
     "aliases": [
       "elite longboat",
       "Elite Longboat",
       "elite longboats"
     ],
     "actual-name": "Elite Longboat",
-    "unit-data": "Viking unique ship that fires multiple arrows. Strong vs. War Galleys, land units, and buildings."
+    "general": "Viking unique ship that fires multiple arrows.",
+    "strength": "War Galleys, land units, and buildings.",
+    "weakness": "Fire Ships (only in small groups), Demolition Ships, Samurai (in the shallows), towers, Castles, ranged siege units on the shoreline, Caravels (in large fleet battles)"
   },
-  "135": {
+  "123": {
     "aliases": [
       "elite mangudai",
       "Elite Mangudai",
       "elite mangudais"
     ],
     "actual-name": "Elite Mangudai",
-    "unit-data": "Mongol unique cavalry archer with fast-firing attack. Strong vs. siege weapons and infantry. Weak vs. Skirmishers, Pikemen, and Camel Riders."
+    "general": "Mongol unique cavalry archer with fast-firing attack.",
+    "strength": "siege weapons and infantry.",
+    "weakness": "Skirmishers, Pikemen, and Camel Riders."
   },
-  "136": {
+  "124": {
     "aliases": [
       "elite war elephant",
       "Elite War Elephant",
       "elite war elephants"
     ],
     "actual-name": "Elite War Elephant",
-    "unit-data": "Persian unique unit. Slow and powerful cavalry. Strong vs. buildings and units at close range. Weak vs. Monks."
+    "general": "Persian unique unit. Slow and powerful cavalry.",
+    "strength": "buildings and units at close range.",
+    "weakness": "Monks."
   },
-  "137": {
+  "125": {
     "aliases": [
       "elite samurai",
       "Elite Samurai",
       "elite samurais"
     ],
     "actual-name": "Elite Samurai",
-    "unit-data": "Japanese unique infantry unit with fast attack. Strong vs. unique units and infantry. Weak vs. archers."
+    "general": "Japanese unique infantry unit with fast attack.",
+    "strength": "unique units and infantry.",
+    "weakness": "archers."
   },
-  "138": {
+  "126": {
     "aliases": [
       "elite throwing axeman",
       "Elite Throwing Axeman",
       "elite throwing axemans"
     ],
     "actual-name": "Elite Throwing Axeman",
-    "unit-data": "Frankish unique infantry unit with ranged melee attack. Strong vs. infantry. Weak vs. archers and siege weapons."
+    "general": "Frankish unique infantry unit with ranged melee attack.",
+    "strength": "infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "139": {
+  "127": {
     "aliases": [
       "elite teutonic knight",
       "Elite Teutonic Knight",
       "elite teutonic knights"
     ],
     "actual-name": "Elite Teutonic Knight",
-    "unit-data": "Teutonic unique infantry unit. Slow and powerful. Strong vs. melee units. Weak vs. archers and Scorpions."
+    "general": "Teutonic unique infantry unit. Slow and powerful.",
+    "strength": "melee units.",
+    "weakness": "archers and Scorpions."
   },
-  "140": {
+  "128": {
     "aliases": [
       "elite woad raider",
       "Elite Woad Raider",
       "elite woad raiders"
     ],
     "actual-name": "Elite Woad Raider",
-    "unit-data": "Celtic unique infantry unit. Fast-moving. Strong vs. infantry and siege weapons. Weak vs. archers and cavalry."
+    "general": "Celtic unique infantry unit. Fast-moving.",
+    "strength": "infantry and siege weapons.",
+    "weakness": "archers and cavalry."
   },
-  "141": {
+  "129": {
     "aliases": [
       "champion",
       "Champion",
       "champions"
     ],
     "actual-name": "Champion",
-    "unit-data": "All-purpose infantry unit. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "All-purpose infantry unit.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "142": {
+  "130": {
     "aliases": [
       "paladin",
       "Paladin",
       "paladins"
     ],
     "actual-name": "Paladin",
-    "unit-data": "Powerful all-purpose cavalry. Strong vs. infantry and archers. Weak vs. Halberdiers, Heavy Camel Riders, and Monks."
+    "general": "Powerful all-purpose cavalry.",
+    "strength": "infantry and archers.",
+    "weakness": "Halberdiers, Heavy Camel Riders, and Monks."
   },
-  "143": {
+  "131": {
     "aliases": [
       "siege onager",
       "Siege Onager",
       "siege onagers"
     ],
     "actual-name": "Siege Onager",
-    "unit-data": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground and destroy trees."
+    "general": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range.",
+    "strength": "tight groups of units. Can attack ground.",
+    "weakness": "Fast moving melee units especially Magyar Huszars and Eagle Warriors, Mangudai, Monks with Sancity and Redemption"
   },
-  "144": {
+  "132": {
     "aliases": [
       "coustillier",
       "Coustillier",
       "coustilliers"
     ],
     "actual-name": "Coustillier",
-    "unit-data": "Burgundian unique cavalry unit which can charge its attack. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Burgundian unique cavalry unit which can charge its attack.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "145": {
+  "133": {
     "aliases": [
       "elite coustillier",
       "Elite Coustillier",
       "elite coustilliers"
     ],
     "actual-name": "Elite Coustillier",
-    "unit-data": "Burgundian unique cavalry unit which can charge its attack. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Burgundian unique cavalry unit which can charge its attack.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "146": {
+  "134": {
     "aliases": [
       "serjeant",
       "Serjeant",
       "serjeants"
     ],
     "actual-name": "Serjeant",
-    "unit-data": "Sicilian unique infantry unit which can construct Donjons."
+    "general": "Sicilian unique infantry unit which can construct Donjons.",
+    "strength": "Archers, Infantry with less melee armor, Skirmishers, buildings, Hussars, Camel Riders.",
+    "weakness": "Scorpions, Mangonels, Hand Cannoneers, Conquistadors, Janissaries, Slingers, Monks, Cataphracts, Leiciai, Samurai, Teutonic Knights, Boyars, Jaguar Warriors, Obuchs, War Elephants, Battle Elephants"
   },
-  "147": {
+  "135": {
     "aliases": [
       "elite serjeant",
       "Elite Serjeant",
       "elite serjeants"
     ],
     "actual-name": "Elite Serjeant",
-    "unit-data": "Sicilian unique infantry unit which can construct Donjons."
+    "general": "Sicilian unique infantry unit which can construct Donjons.",
+    "strength": "Archers, Infantry with less melee armor, Skirmishers, buildings, Hussars, Camel Riders.",
+    "weakness": "Scorpions, Mangonels, Hand Cannoneers, Conquistadors, Janissaries, Slingers, Monks, Cataphracts, Leiciai, Samurai, Teutonic Knights, Boyars, Jaguar Warriors, Obuchs, War Elephants, Battle Elephants"
   },
-  "148": {
+  "136": {
     "aliases": [
       "flemish militia",
       "Flemish Militia",
       "flemish militias"
     ],
     "actual-name": "Flemish Militia",
-    "unit-data": "Burgundian unique infantry unit. Strong vs. cavalry. Weak vs. archers."
+    "general": "Burgundian unique infantry unit.",
+    "strength": "cavalry.",
+    "weakness": "archers."
   },
-  "149": {
+  "137": {
     "aliases": [
       "obuch",
       "Obuch",
       "obuchs"
     ],
     "actual-name": "Obuch",
-    "unit-data": "Polish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "Polish unique infantry unit which can damage the armor of units it is fighting.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "150": {
+  "138": {
     "aliases": [
       "elite obuch",
       "Elite Obuch",
       "elite obuchs"
     ],
     "actual-name": "Elite Obuch",
-    "unit-data": "Polish unique infantry unit which can damage the armor of units it is fighting. Strong vs. buildings and infantry. Weak vs. archers at long range."
+    "general": "Polish unique infantry unit which can damage the armor of units it is fighting.",
+    "strength": "buildings and infantry.",
+    "weakness": "archers at long range."
   },
-  "151": {
+  "139": {
     "aliases": [
       "hussite wagon",
       "Hussite Wagon",
       "hussite wagons"
     ],
     "actual-name": "Hussite Wagon",
-    "unit-data": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles. Strong vs. archers. Weak vs. siege weapons."
+    "general": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
+    "strength": "archers.",
+    "weakness": "siege weapons."
   },
-  "152": {
+  "140": {
     "aliases": [
       "elite hussite wagon",
       "Elite Hussite Wagon",
       "elite hussite wagons"
     ],
     "actual-name": "Elite Hussite Wagon",
-    "unit-data": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles. Strong vs. archers. Weak vs. siege weapons."
+    "general": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
+    "strength": "archers.",
+    "weakness": "siege weapons."
   },
-  "153": {
+  "141": {
     "aliases": [
       "elite cannon galleon",
       "Elite Cannon Galleon",
       "elite cannon galleons"
     ],
     "actual-name": "Elite Cannon Galleon",
-    "unit-data": "Anti-building siege warship with long range, but cannot attack enemies at close range. Strong vs. buildings. Weak vs. other units."
+    "general": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
+    "strength": "buildings.",
+    "weakness": "other units."
   },
-  "154": {
+  "142": {
     "aliases": [
       "berserk",
       "Berserk",
       "berserks"
     ],
     "actual-name": "Berserk",
-    "unit-data": "Viking unique infantry unit that slowly heals itself. Strong vs. infantry and siege weapons. Weak vs. archers."
+    "general": "Viking unique infantry unit that slowly heals itself.",
+    "strength": "infantry and siege weapons.",
+    "weakness": "archers."
   },
-  "155": {
+  "143": {
     "aliases": [
       "elite berserk",
       "Elite Berserk",
       "elite berserks"
     ],
     "actual-name": "Elite Berserk",
-    "unit-data": "Viking unique infantry unit that slowly heals itself. Strong vs. infantry and siege weapons. Weak vs. archers."
+    "general": "Viking unique infantry unit that slowly heals itself.",
+    "strength": "infantry and siege weapons.",
+    "weakness": "archers."
   },
-  "156": {
+  "144": {
     "aliases": [
       "winged hussar",
       "Winged Hussar",
       "winged hussars"
     ],
     "actual-name": "Winged Hussar",
-    "unit-data": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks and gunpowder units. Weak vs. Pikemen and Camel Riders."
+    "general": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks and gunpowder units.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "157": {
+  "145": {
     "aliases": [
       "houfnice",
       "Houfnice",
       "houfnices"
     ],
     "actual-name": "Houfnice",
-    "unit-data": "Bohemian unique siege unit. Siege weapon with long range. Strong vs. buildings and siege weapons. Weak vs. melee units."
+    "general": "Bohemian unique siege unit. Siege weapon with long range.",
+    "strength": "buildings and siege weapons.",
+    "weakness": "melee units."
   },
-  "158": {
+  "146": {
     "aliases": [
       "petard",
       "Petard",
       "petards"
     ],
     "actual-name": "Petard",
-    "unit-data": "Demolition siege unit armed with explosives. Strong vs. buildings. Weak vs. other units. Self-destructs when used."
+    "general": "Demolition siege unit armed with explosives.",
+    "strength": "buildings.",
+    "weakness": "other units. Self-destructs when used."
   },
-  "159": {
+  "147": {
     "aliases": [
       "hussar",
       "Hussar",
       "hussars"
     ],
     "actual-name": "Hussar",
-    "unit-data": "Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders."
+    "general": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "160": {
+  "148": {
     "aliases": [
       "jaguar warrior",
       "Jaguar Warrior",
       "jaguar warriors"
     ],
     "actual-name": "Jaguar Warrior",
-    "unit-data": "Aztec unique infantry unit. Strong vs. infantry. Weak vs. cavalry and archers."
+    "general": "Aztec unique infantry unit.",
+    "strength": "infantry.",
+    "weakness": "cavalry and archers."
   },
-  "161": {
+  "149": {
     "aliases": [
       "elite jaguar warrior",
       "Elite Jaguar Warrior",
       "elite jaguar warriors"
     ],
     "actual-name": "Elite Jaguar Warrior",
-    "unit-data": "Aztec unique infantry unit. Strong vs. infantry. Weak vs. cavalry and archers."
+    "general": "Aztec unique infantry unit.",
+    "strength": "infantry.",
+    "weakness": "cavalry and archers."
   },
-  "162": {
+  "150": {
     "aliases": [
       "eagle warrior",
       "Eagle Warrior",
       "eagle warriors"
     ],
     "actual-name": "Eagle Warrior",
-    "unit-data": "Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Long Swordsmen and cavalry."
+    "general": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks and archers.",
+    "weakness": "Long Swordsmen and cavalry."
   },
-  "163": {
+  "151": {
     "aliases": [
       "eagle scout",
       "Eagle Scout",
       "eagle scouts"
     ],
     "actual-name": "Eagle Scout",
-    "unit-data": "Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Men-at-Arms and cavalry."
+    "general": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks and archers.",
+    "weakness": "Men-at-Arms and cavalry."
   },
-  "164": {
+  "152": {
     "aliases": [
       "elite eagle warrior",
       "Elite Eagle Warrior",
       "elite eagle warriors"
     ],
     "actual-name": "Elite Eagle Warrior",
-    "unit-data": "Fast infantry for scouting and raiding. Resistant to conversion. Strong vs. Monks and archers. Weak vs. Long Swordsmen and cavalry."
+    "general": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "strength": "Monks and archers.",
+    "weakness": "Long Swordsmen and cavalry."
   },
-  "165": {
+  "153": {
     "aliases": [
       "tarkan",
       "Tarkan",
       "tarkans"
     ],
     "actual-name": "Tarkan",
-    "unit-data": "Hunnic unique cavalry unit with attack bonus vs. buildings. Strong vs. buildings and archers. Weak vs. Pikemen and Camel Riders."
+    "general": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
+    "strength": "buildings and archers.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "166": {
+  "154": {
     "aliases": [
       "elite tarkan",
       "Elite Tarkan",
       "elite tarkans"
     ],
     "actual-name": "Elite Tarkan",
-    "unit-data": "Hunnic unique cavalry unit with attack bonus vs. buildings. Strong vs. buildings and archers. Weak vs. Pikemen and Camel Riders."
+    "general": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
+    "strength": "buildings and archers.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "167": {
+  "155": {
     "aliases": [
       "elephant archer",
       "Elephant Archer",
       "elephant archers"
     ],
     "actual-name": "Elephant Archer",
-    "unit-data": "Slow and heavy mounted archer. Strong vs. archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Slow and heavy mounted archer.",
+    "strength": "archers and infantry.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
-  "168": {
+  "156": {
     "aliases": [
       "plumed archer",
       "Plumed Archer",
       "plumed archers"
     ],
     "actual-name": "Plumed Archer",
-    "unit-data": "Mayan unique fast-moving archer. Strong vs. archers and infantry. Weak vs. cavalry."
+    "general": "Mayan unique fast-moving archer.",
+    "strength": "archers and infantry.",
+    "weakness": "cavalry."
   },
-  "169": {
+  "157": {
     "aliases": [
       "elite elephant archer",
       "Elite Elephant Archer",
       "elite elephant archers"
     ],
     "actual-name": "Elite Elephant Archer",
-    "unit-data": "Slow and heavy mounted archer. Strong vs. archers and infantry. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Slow and heavy mounted archer.",
+    "strength": "archers and infantry.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
-  "170": {
+  "158": {
     "aliases": [
       "elite plumed archer",
       "Elite Plumed Archer",
       "elite plumed archers"
     ],
     "actual-name": "Elite Plumed Archer",
-    "unit-data": "Mayan unique fast-moving archer. Strong vs. archers and infantry. Weak vs. cavalry."
+    "general": "Mayan unique fast-moving archer.",
+    "strength": "archers and infantry.",
+    "weakness": "cavalry."
   },
-  "171": {
+  "159": {
     "aliases": [
       "kamayuk",
       "Kamayuk",
       "kamayuks"
     ],
     "actual-name": "Kamayuk",
-    "unit-data": "Inca unique spearman with increased attack range. Strong vs. cavalry and infantry. Weak vs. archers."
+    "general": "Inca unique spearman with increased attack range.",
+    "strength": "cavalry and infantry.",
+    "weakness": "archers."
   },
-  "172": {
+  "160": {
     "aliases": [
       "conquistador",
       "Conquistador",
       "conquistadors"
     ],
     "actual-name": "Conquistador",
-    "unit-data": "Spanish unique mounted hand cannoneer. Strong vs. infantry. Weak vs. Pikemen, Skirmishers, and Monks."
+    "general": "Spanish unique mounted hand cannoneer.",
+    "strength": "infantry.",
+    "weakness": "Pikemen, Skirmishers, and Monks."
   },
-  "173": {
+  "161": {
     "aliases": [
       "elite kamayuk",
       "Elite Kamayuk",
       "elite kamayuks"
     ],
     "actual-name": "Elite Kamayuk",
-    "unit-data": "Inca unique spearman with increased attack range. Strong vs. cavalry and infantry. Weak vs. archers."
+    "general": "Inca unique spearman with increased attack range.",
+    "strength": "cavalry and infantry.",
+    "weakness": "archers."
   },
-  "174": {
+  "162": {
     "aliases": [
       "elite conquistador",
       "Elite Conquistador",
       "elite conquistadors"
     ],
     "actual-name": "Elite Conquistador",
-    "unit-data": "Spanish unique mounted hand cannoneer. Strong vs. infantry. Weak vs. Pikemen, Skirmishers, and Monks."
+    "general": "Spanish unique mounted hand cannoneer.",
+    "strength": "infantry.",
+    "weakness": "Pikemen, Skirmishers, and Monks."
   },
-  "175": {
+  "163": {
     "aliases": [
       "slinger",
       "Slinger",
       "slingers"
     ],
     "actual-name": "Slinger",
-    "unit-data": "Inca unique unit. Ranged anti-infantry unit that cannot attack at close range. Strong vs. infantry. Weak vs. archers and cavalry."
+    "general": "Inca unique unit. Ranged anti-infantry unit that cannot attack at close range.",
+    "strength": "infantry.",
+    "weakness": "archers and cavalry."
   },
-  "176": {
+  "164": {
     "aliases": [
       "missionary",
       "Missionary",
       "missionarys"
     ],
     "actual-name": "Missionary",
-    "unit-data": "Spanish unique mounted monk. Converts enemy units and heals friendly units. Faster than Monk but with less sight and range. Strong vs. slow, non-ranged units. Weak vs. Light Cavalry and ranged units. Cannot collect Relics."
+    "general": "Spanish unique mounted monk. Converts enemy units and heals friendly units. Faster than Monk but with less sight and range.",
+    "strength": "slow, non-ranged units.",
+    "weakness": "Light Cavalry and ranged units. Cannot collect Relics."
   },
-  "177": {
+  "165": {
     "aliases": [
       "genoese crossbowman",
       "Genoese Crossbowman",
       "genoese crossbowmans"
     ],
     "actual-name": "Genoese Crossbowman",
-    "unit-data": "Italian unique archer. Strong vs. cavalry and infantry. Weak vs. archers and siege weapons."
+    "general": "Italian unique archer.",
+    "strength": "cavalry and infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "178": {
+  "166": {
     "aliases": [
       "elite genoese crossbowman",
       "Elite Genoese Crossbowman",
       "elite genoese crossbowmans"
     ],
     "actual-name": "Elite Genoese Crossbowman",
-    "unit-data": "Italian unique archer. Strong vs. cavalry and infantry. Weak vs. archers and siege weapons."
+    "general": "Italian unique archer.",
+    "strength": "cavalry and infantry.",
+    "weakness": "archers and siege weapons."
   },
-  "179": {
+  "167": {
     "aliases": [
       "war wagon",
       "War Wagon",
       "war wagons"
     ],
     "actual-name": "War Wagon",
-    "unit-data": "Korean unique cavalry archer unit. Strong vs. infantry and archers. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Korean unique cavalry archer unit.",
+    "strength": "infantry and archers.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
-  "180": {
+  "168": {
     "aliases": [
       "magyar huszar",
       "Magyar Huszar",
       "magyar huszars"
     ],
     "actual-name": "Magyar Huszar",
-    "unit-data": "Magyar unique light cavalry unit. Strong vs. siege weapons. Weak vs. Pikemen and Camel Riders."
+    "general": "Magyar unique light cavalry unit.",
+    "strength": "siege weapons.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "181": {
+  "169": {
     "aliases": [
       "elite war wagon",
       "Elite War Wagon",
       "elite war wagons"
     ],
     "actual-name": "Elite War Wagon",
-    "unit-data": "Korean unique cavalry archer unit. Strong vs. infantry and archers. Weak vs. Pikemen, Skirmishers, and Camel Riders."
+    "general": "Korean unique cavalry archer unit.",
+    "strength": "infantry and archers.",
+    "weakness": "Pikemen, Skirmishers, and Camel Riders."
   },
-  "182": {
+  "170": {
     "aliases": [
       "elite magyar huszar",
       "Elite Magyar Huszar",
       "elite magyar huszars"
     ],
     "actual-name": "Elite Magyar Huszar",
-    "unit-data": "Magyar unique light cavalry unit. Strong vs. siege weapons. Weak vs. Pikemen and Camel Riders."
+    "general": "Magyar unique light cavalry unit.",
+    "strength": "siege weapons.",
+    "weakness": "Pikemen and Camel Riders."
   },
-  "183": {
+  "171": {
     "aliases": [
       "turtle ship",
       "Turtle Ship",
       "turtle ships"
     ],
     "actual-name": "Turtle Ship",
-    "unit-data": "Korean unique ship. Slow and ironclad. Strong vs. warships and buildings."
+    "general": "Korean unique ship. Slow and ironclad.",
+    "strength": "Ships at close distance, buildings on the shoreline, units on the shoreline or shallows.",
+    "weakness": "Bombard Cannons, Monks, Castles, towers, Condottieri (in the shallows)"
   },
-  "184": {
+  "172": {
     "aliases": [
       "elite turtle ship",
       "Elite Turtle Ship",
       "elite turtle ships"
     ],
     "actual-name": "Elite Turtle Ship",
-    "unit-data": "Korean unique ship. Slow and ironclad. Strong vs. warships and buildings."
+    "general": "Korean unique ship. Slow and ironclad.",
+    "strength": "Ships at close distance, buildings on the shoreline, units on the shoreline or shallows.",
+    "weakness": "Bombard Cannons, Monks, Castles, towers, Condottieri (in the shallows)"
   },
-  "185": {
+  "173": {
     "aliases": [
       "konnik",
       "Konnik",
       "konniks"
     ],
     "actual-name": "Konnik",
-    "unit-data": "Bulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "186": {
+  "174": {
     "aliases": [
       "elite konnik",
       "Elite Konnik",
       "elite konniks"
     ],
     "actual-name": "Elite Konnik",
-    "unit-data": "Bulgarian unique cavalry unit that fights on as infantry when felled. Strong vs. infantry and archers. Weak vs. Camel Riders and Monks."
+    "general": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+    "strength": "infantry and archers.",
+    "weakness": "Camel Riders and Monks."
   },
-  "187": {
+  "175": {
     "aliases": [
       "ratha",
       "Ratha",
       "rathas"
     ],
     "actual-name": "Ratha",
-    "unit-data": "Bengali unique chariot that can switch between melee and ranged attacks. Strong vs. infantry. Weak vs. Skirmishers and Camel Riders."
+    "general": "Bengali unique chariot that can switch between melee and ranged attacks.",
+    "strength": "infantry.",
+    "weakness": "Skirmishers and Camel Riders."
   },
-  "188": {
+  "176": {
     "aliases": [
       "elite ratha",
       "Elite Ratha",
       "elite rathas"
     ],
     "actual-name": "Elite Ratha",
-    "unit-data": "Bengali unique chariot that can switch between melee and ranged attacks. Strong vs. infantry. Weak vs. Skirmishers and Camel Riders."
+    "general": "Bengali unique chariot that can switch between melee and ranged attacks.",
+    "strength": "infantry.",
+    "weakness": "Skirmishers and Camel Riders."
   },
-  "189": {
+  "177": {
     "aliases": [
       "ratha",
       "Ratha",
       "rathas"
     ],
     "actual-name": "Ratha",
-    "unit-data": "Bengali unique chariot that can switch between melee and ranged attacks. Strong vs. infantry. Weak vs. Skirmishers and Camel Riders."
+    "general": "Bengali unique chariot that can switch between melee and ranged attacks.",
+    "strength": "infantry.",
+    "weakness": "Skirmishers and Camel Riders."
   }
 }
