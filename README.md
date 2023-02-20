@@ -8,5 +8,5 @@ Discord bot which provides information about units. Information includes general
 ## Usage
 You have two options to interact with Ralph. You can DM Ralph or you can chat to him in the `ralph_knows` channel. Simple enter the name of the unit you wish to retrieve information on.
 
-Example:
+### Example:
 ![Ralph image](/img/usage.png)
