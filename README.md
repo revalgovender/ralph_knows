@@ -13,7 +13,7 @@ You have two options to interact with Ralph:
 Simply enter the name of the unit you wish to retrieve information on.
 
 ### Example:
-![Ralph image](/img/new-usage.png)
+![usage image](/img/usage2.png)
 
 ## Issues
 - If Ralph can't find the unit you are looking for, he will record your submission and will consider it for the future.
