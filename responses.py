@@ -19,7 +19,7 @@ def get_response(message: str) -> str:
 
     print("**********************************************")
     print("Couldn't find unit!")
-    print("Unit supplied:" + user_supplied_unit_name)
+    print("Unit supplied: " + user_supplied_unit_name)
     print("**********************************************")
 
     return '😔 **I couldn\'t find that unit sire.** I have recorded your message to study it. I will update the scrolls if required. Try typing "!help". '
