@@ -6,14 +6,13 @@
 Discord bot which provides information about units. Information includes general, strengths and weaknesses.
 
 ## Usage
-You have two options to interact with Ralph: 
-- You can DM Ralph
-- You can chat to him in the `#ralph_knows` channel. 
+You can interact with Ralph by using the slash command `/counter` and then supply a unit to look up the counter for.
 
-Simply enter the name of the unit you wish to retrieve information on.
+### Example input:
+![usage image](/img/usage-input.png)
 
-### Example:
-![usage image](/img/usage2.png)
+### Expected Result For Multiple Usages:
+![usage image](/img/usage-3.png)
 
 ## Issues
 - If Ralph can't find the unit you are looking for, he will record your submission and will consider it for the future.
