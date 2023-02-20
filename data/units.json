@@ -808,7 +808,7 @@
       "Trebuchet",
       "trebuchets",
       "treb",
-      "trebs",
+      "trebs"
     ],
     "actual-name": "Trebuchet",
     "unit-data": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Strong vs. buildings. Can attack ground and destroy trees."
@@ -921,7 +921,7 @@
       "Demolition Ship",
       "demolition ships",
       "demo ship",
-      "demo ships",
+      "demo ships"
     ],
     "actual-name": "Demolition Ship",
     "unit-data": "Demolition ship armed with explosives. Strong vs. Fire Ships and buildings. Self-destructs when used."
@@ -932,7 +932,7 @@
       "Heavy Demolition Ship",
       "heavy demolition ships",
       "heavy demo ship",
-      "heavy demo ships",
+      "heavy demo ships"
     ],
     "actual-name": "Heavy Demolition Ship",
     "unit-data": "Demolition ship armed with explosives. Strong vs. Fire Ships and buildings. Self-destructs when used."
@@ -1013,7 +1013,7 @@
     "aliases": [
       "galley",
       "Galley",
-      "galleys",
+      "galleys"
     ],
     "actual-name": "Galley",
     "unit-data": "All-purpose warship with ranged attack. Weak vs. Fire Galleys."
@@ -1078,7 +1078,7 @@
       "Light Cavalry",
       "light cavalrys",
       "light cav",
-      "light cavs",
+      "light cavs"
     ],
     "actual-name": "Light Cavalry",
     "unit-data": "Fast cavalry for scouting and raiding. Resistant to conversion. Strong vs. Monks. Weak vs. Pikemen and Camel Riders."
