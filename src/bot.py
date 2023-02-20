@@ -6,7 +6,7 @@ import os
 async def send_message(message, user_message, username, is_private):
     try:
         response = responses.get_response(user_message, username)
-        await message.author.send(embed=response) if is_private else await message.author.send(embed=response)
+        await message.author.send(embed=response) if is_private else await message.channel.send(embed=response)
 
     except Exception as e:
         print(e)
