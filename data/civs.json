@@ -1,0 +1,589 @@
+{
+  "1": {
+    "name": "Aztecs",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "monks"
+    ],
+    "build": [
+      "ranged units",
+      "light cavalry"
+    ]
+  },
+  "2": {
+    "name": "Bengalis",
+    "image": "bengalis.png",
+    "strengths": [
+      "elephants",
+      "cavalry archers",
+      "elephant archers",
+      "ships"
+    ],
+    "build": [
+      "spearman line",
+      "mangonels",
+      "skirms"
+    ]
+  },
+  "3": {
+    "name": "Berbers",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "camels",
+      "cavalry archers",
+      "ships",
+      "cavalier",
+      "heavy camel",
+      "camel archer",
+      "hussar"
+    ],
+    "build": [
+      "spearman line",
+      "monks",
+      "camel riders"
+    ]
+  },
+  "4": {
+    "name": "Bohemians",
+    "image": "aztecs.png",
+    "strengths": [
+      "gunpowder",
+      "monks",
+      "siege"
+    ],
+    "build": [
+      "spearman line",
+      "monks",
+      "camel riders"
+    ]
+  },
+  "5": {
+    "name": "Britons",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "longbowman",
+      "arbalester"
+    ],
+    "build": [
+      "mangonels",
+      "skirms",
+      "close range units"
+    ]
+  },
+  "6": {
+    "name": "Bulgarians",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "cavalry",
+      "siege"
+    ],
+    "build": [
+      "archer line",
+      "spearman line",
+      "infantry line"
+    ]
+  },
+  "7": {
+    "name": "Burgundians",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "gunpowder"
+    ],
+    "build": [
+      "archer line",
+      "spearman line",
+      "infantry line"
+    ]
+  },
+  "8": {
+    "name": "Burmese",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "cavalry",
+      "monks",
+      "elephants arambai",
+      "elite battle elephant",
+      "champion",
+      "hussar",
+      "cavalier",
+      "hallebardier"
+    ],
+    "build": [
+      "archer line",
+      "monks"
+    ]
+  },
+  "9": {
+    "name": "Byzantines",
+    "image": "aztecs.png",
+    "strengths": [
+      "defense",
+      "camels",
+      "ships",
+      "heavy camel",
+      "cataphract",
+      "elite skirmisher",
+      "hallebardier",
+      "fast fire ship",
+      "building"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "10": {
+    "name": "Celts",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "siege"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "11": {
+    "name": "Chinese",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "cavalry"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "12": {
+    "name": "Cumans",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "siege"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "13": {
+    "name": "Dravidians",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "elephants",
+      "elephant archers",
+      "ships"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "14": {
+    "name": "Ethiopians",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "siege",
+      "arbalester",
+      "siege onager",
+      "hallebardier",
+      "heavy scorpion",
+      "siege ram",
+      "bombard cannon"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "15": {
+    "name": "Franks",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "cheap cavalry archerstles"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "16": {
+    "name": "Goths",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "huskarl",
+      "champion"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "17": {
+    "name": "Gurjaras",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "camels",
+      "elephants",
+      "elephant archers"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "18": {
+    "name": "Huns",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry archers",
+      "cavalry",
+      "heavy cavalry archer",
+      "paladin",
+      "hussar"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "19": {
+    "name": "Incas",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "20": {
+    "name": "Hindustanis",
+    "image": "aztecs.png",
+    "strengths": [
+      "camels",
+      "gunpowder",
+      "imperial camel",
+      "hand cannoneer"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "21": {
+    "name": "Italians",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "gunpowder",
+      "ships"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "22": {
+    "name": "Japanese",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "archers",
+      "champion",
+      "hallebardier",
+      "arbalester",
+      "samurai"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "23": {
+    "name": "Khmer",
+    "image": "aztecs.png",
+    "strengths": [
+      "siege",
+      "elephants",
+      "cavalry",
+      "ballista elephant",
+      "elite battle elephant",
+      "heavy scorpion"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "24": {
+    "name": "Koreans",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "siege",
+      "ships",
+      "defense",
+      "tarbalester",
+      "elite skirmisher",
+      "siege onager",
+      "war wagon",
+      "hallebardier",
+      "turtle ship"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "25": {
+    "name": "Lithuanians",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "monks"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "26": {
+    "name": "Magyars",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "cavalry archers",
+      "paladin",
+      "heavy cavalry archer",
+      "Magyar huszar",
+      "hussar"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "27": {
+    "name": "Malay",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "elephants",
+      "ships"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "28": {
+    "name": "Malians",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "cavalry",
+      "camels",
+      "champion",
+      "cavalier",
+      "heavy camel",
+      "hussar"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "29": {
+    "name": "Mayans",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "infantry",
+      "plumed archer",
+      "elite eagle warrior",
+      "arbalester",
+      "elite skirmisher"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "30": {
+    "name": "Mongols",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry archers",
+      "siege",
+      "cavalry",
+      "mangudai",
+      "heavy cavalry archer",
+      "hussar",
+      "siege ram",
+      "siege onager"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "31": {
+    "name": "Persians",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "archers",
+      "elephants",
+      "mangudai",
+      "heavy cavalry archer",
+      "hussar",
+      "siege ram",
+      "siege onager"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "32": {
+    "name": "Poles",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "33": {
+    "name": "Portuguese",
+    "image": "aztecs.png",
+    "strengths": [
+      "gunpowder",
+      "ships",
+      "archers",
+      "cavalry",
+      "siege"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "34": {
+    "name": "Saracens",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "camels",
+      "siege",
+      "ships\tarbalester",
+      "heavy camel",
+      "mameluke",
+      "siege onager",
+      "galleon"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "35": {
+    "name": "Sicilians",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "infantry",
+      "archers"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "36": {
+    "name": "Slavs",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "siege",
+      "archers"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "37": {
+    "name": "Spanish",
+    "image": "aztecs.png",
+    "strengths": [
+      "gunpowder",
+      "monks",
+      "cavalry"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "38": {
+    "name": "Tatars",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry archers",
+      "archers",
+      "heavy cavalry archer",
+      "hussar"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "39": {
+    "name": "Teutons",
+    "image": "aztecs.png",
+    "strengths": [
+      "cavalry",
+      "infantry",
+      "siege cavalry",
+      "archer",
+      "monks",
+      "defense"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "40": {
+    "name": "Turks",
+    "image": "aztecs.png",
+    "strengths": [
+      "gunpowder",
+      "cavalry archers",
+      "cavalry",
+      "janissary",
+      "hand cannoneer",
+      "bombard cannon",
+      "heavy cavalry archer",
+      "hussar"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "41": {
+    "name": "Vietnamese",
+    "image": "aztecs.png",
+    "strengths": [
+      "archers",
+      "elephants",
+      "rattan archer",
+      "arbalester",
+      "imperial skirmisher",
+      "elite battle elephant"
+    ],
+    "build": [
+      ""
+    ]
+  },
+  "42": {
+    "name": "Vikings",
+    "image": "aztecs.png",
+    "strengths": [
+      "infantry",
+      "archers",
+      "ships"
+    ],
+    "build": [
+      ""
+    ]
+  }
+}

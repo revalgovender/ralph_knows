@@ -77,11 +77,53 @@ if __name__ == '__main__':
                   guild=discord.Object(id=521077625519603712))
     @app_commands.describe(types="Build orders available")
     @app_commands.choices(types=[
-        discord.app_commands.Choice(name='Fast Castle', value='1'),
+        discord.app_commands.Choice(name='Generic Knight rush', value='1'),
         discord.app_commands.Choice(name='Rev Man-at-Arms rush', value='2'),
     ])
     async def self(interaction: discord.Interaction, types: discord.app_commands.Choice[str]):
         response = responses.get_build_order_response(int(types.value))
+        await interaction.response.send_message(embed=response, ephemeral=False)
+
+    async def civ_autocomplete(
+            interaction: discord.Interaction,
+            current: str,
+    ) -> typing.List[app_commands.Choice[str]]:
+        civs = []
+        file = open('data/civs.json')
+        data = json.load(file)
+
+        for civ in data.items():
+            civs.append(civ[1]['name'].lower())
+
+        # Create random 5 civs to display before using starts typing civ.
+        # This will prevent Discord trying to grab the entire list of civs.
+        if not current:
+            short_civ_list = random.sample(civs, 5)
+            return [
+                app_commands.Choice(name=short_civ_list[0], value=short_civ_list[0]),
+                app_commands.Choice(name=short_civ_list[1], value=short_civ_list[1]),
+                app_commands.Choice(name=short_civ_list[2], value=short_civ_list[2]),
+                app_commands.Choice(name=short_civ_list[3], value=short_civ_list[3]),
+                app_commands.Choice(name=short_civ_list[4], value=short_civ_list[4]),
+            ]
+
+        # Perform filtering to limit list to items which match user input.
+        # We do this because Discord only allows a max of 25 autocomplete results.
+        # Thankfully we don't need any other limitations here as we don't have that many civs.
+        civs = [i for i in civs if i.startswith(current)]
+
+        return [
+            app_commands.Choice(name=civ, value=civ)
+            for civ in civs if current.lower() in civ.lower()
+        ]
+
+
+    @tree.command(name='civ', description='Get civ data',
+                  guild=discord.Object(id=521077625519603712))
+    @app_commands.describe(civ="What civ do you want information about?")
+    @app_commands.autocomplete(civ=civ_autocomplete)
+    async def self(interaction: discord.Interaction, civ: str):
+        response = responses.get_civ_data(civ, str(interaction.user))
         await interaction.response.send_message(embed=response, ephemeral=False)
 
 # bot.run(token=os.environ['TOKEN'])

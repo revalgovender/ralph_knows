@@ -20,9 +20,35 @@ def get_response(message: str, username: str):
                                   color=0x9a8da7)
             return embed
 
-    log_failed_request(user_supplied_unit_name, username)
-
     embed = discord.Embed(title="😔 I couldn't find that unit sire",
+                          description='I have recorded your message to study it. I will update the scrolls if required.',
+                          color=0xf22c56)
+    return embed
+
+
+def get_civ_data(message: str, username: str):
+    user_supplied_civ_name = message.lower()
+    file = open('data/civs.json')
+    data = json.load(file)
+
+    for civ in data.items():
+        civ_name = civ[1]['name']
+        civ_name = civ_name.lower()
+        if user_supplied_civ_name in civ_name:
+            strengths = civ[1]['strengths']
+            strengths = ', '.join(strengths)
+            strengths = strengths.capitalize()
+            build = civ[1]['build']
+            build = ', '.join(build)
+            civ_name = civ[1]['name']
+
+            embed = discord.Embed(title="", description="", color=0x9a8da7)
+            embed.set_author(name=civ_name, icon_url="https://aoecompanion.com/civ-icons/" + civ_name.lower() + '.png')
+            embed.add_field(name='Have strong', value=strengths, inline=False)
+            embed.add_field(name='Try building', value=build, inline=False)
+            return embed
+
+    embed = discord.Embed(title="😔 I couldn't find that civ sire",
                           description='I have recorded your message to study it. I will update the scrolls if required.',
                           color=0xf22c56)
     return embed
@@ -33,7 +59,7 @@ def get_build_order_response(type: int):
     title = ''
 
     if type == 1:
-        title = '🏰 Fast Castle'
+        title = '🐎 Generic Knight Rush'
         instructions = [
             "First 3 villagers build houses and then harvest sheep",
             "6 sheep.",
@@ -83,22 +109,3 @@ def get_build_order_response(type: int):
         embed.add_field(name='', value='- ' + instruction, inline=False)
 
     return embed
-
-
-def log_failed_request(user_supplied_unit_name, username):
-    # Read log file.
-    log = 'data/failed-requests.json'
-    with open(log) as logfile:
-        failed_requests = json.load(logfile)
-
-    # Add new failed request.
-    new_failed_request = {
-        'username': username,
-        'unit_name_supplied': user_supplied_unit_name,
-    }
-    failed_requests.append(new_failed_request)
-    failed_requests = json.dumps(failed_requests, indent=2)
-
-    # Update log file.
-    with open(log, "w") as outfile:
-        outfile.write(failed_requests)

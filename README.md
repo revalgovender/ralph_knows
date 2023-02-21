@@ -17,6 +17,15 @@ You can interact with Ralph by using the following slash commands:
 #### Result:
 ![usage image](/img/counter-result.png)
 
+### Civ Information
+`/civ` and then select the civ you want information on
+
+#### Example input:
+![usage image](/img/civ-usage.png)
+
+#### Result:
+![usage image](/img/civ-result.png)
+
 ### Build Orders
 `/build-order` and then select the build order you want instructions for from the list provided
 
