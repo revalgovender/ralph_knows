@@ -46,10 +46,12 @@ def get_civ_data(message: str):
             file = open('data/units.json')
             data = json.load(file)
             counters = ''
+            castle_unit_icon = ''
 
             for unit in data.items():
                 if castle_unit.lower() in unit[1]['aliases']:
                     counters = unit[1]['weakness']
+                    castle_unit_icon = unit[1]['icon']
                     if counters[-1] == '.':
                         counters = counters.rstrip(counters[-1])
 
@@ -61,6 +63,7 @@ def get_civ_data(message: str):
             embed.add_field(name='Have strong', value=strengths, inline=True)
             embed.add_field(name='', value='', inline=True)
             embed.add_field(name='Try building', value=build, inline=True)
+            embed.set_image(url='https://aoecompanion.com/icons/' + castle_unit_icon)
 
             return embed
 
