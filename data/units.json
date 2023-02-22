@@ -342,7 +342,7 @@
         "actual-name": "Mameluke",
         "general": "Saracen unique camel unit with ranged melee attack.",
         "strength": "Cavalry.",
-        "weakness": "Archers and pikemen.",
+        "weakness": "Foot archers, Teutonic Knights, Camel Riders, Camel Archers, Monks",
         "icon": "MamelukeIcon-DE.png"
     },
     "29": {
@@ -366,7 +366,7 @@
         "actual-name": "Janissary",
         "general": "Turkish unique hand cannoneer with longer range and no minimum range.",
         "strength": "Infantry.",
-        "weakness": "Archers.",
+        "weakness": "Skirmishers, Scorpions, Mangonels, Huskarls, Condottieri, Bombard Cannons, Winged Hussars",
         "icon": "JanissaryIcon-DE.png"
     },
     "31": {
@@ -402,7 +402,7 @@
         "actual-name": "Mangudai",
         "general": "Mongol unique cavalry archer with fast-firing attack.",
         "strength": "Siege weapons and infantry.",
-        "weakness": "Skirmishers, pikemen, and camel riders.",
+        "weakness": "Genoese Crossbowmen, Huskarls, Mamelukes, Camel Riders, Skirmishers, Eagle Warriors, Camel Archers, Paladins, Samurai, Kamayuks",
         "icon": "MangudaiIcon-DE.png"
     },
     "34": {
@@ -414,7 +414,7 @@
         "actual-name": "War Elephant",
         "general": "Persian unique unit. Slow and powerful cavalry.",
         "strength": "Buildings and units at close range.",
-        "weakness": "Monks.",
+        "weakness": "Pikemen, Kamayuks, Genoese Crossbowmen, Mamelukes, Camel Riders, Cavalry Archers, Monks, Mangonels, Scorpions, Flaming Camels",
         "icon": "WarElephantIcon-DE.png"
     },
     "35": {
@@ -426,7 +426,7 @@
         "actual-name": "Samurai",
         "general": "Japanese unique infantry unit with fast attack.",
         "strength": "Unique units and infantry.",
-        "weakness": "Archers.",
+        "weakness": "Archers, Scorpions, Hand Cannoneers, Paladins, Battle Elephants.",
         "icon": "SamuraiIcon-DE.png"
     },
     "36": {
@@ -450,7 +450,7 @@
         "actual-name": "Teutonic Knight",
         "general": "Teutonic unique infantry unit. Slow and powerful.",
         "strength": "Melee units.",
-        "weakness": "Archers and scorpions.",
+        "weakness": "Archers, Scorpions, Mangonels, Monks, Cataphracts, Leiciai, Obuchs, Jaguar Warriors, Samurai, War Elephants, Dravidians' infantry with Wootz Steel researched.",
         "icon": "TeutonicKnightIcon-DE.png"
     },
     "38": {
@@ -498,7 +498,7 @@
         "actual-name": "Organ Gun",
         "general": "Portuguese unique siege unit. Fires a volley of bullets.",
         "strength": "Large groups of units.",
-        "weakness": "Cavalry and mangonels.",
+        "weakness": "Condottieri, cavalry, Onagers, Bombard Cannons, Huskarls, Mangudai, Eagle Warriors.",
         "icon": "OrganGunIcon-DE.png"
     },
     "42": {
@@ -594,7 +594,7 @@
         "actual-name": "Gbeto",
         "general": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
         "strength": "Infantry.",
-        "weakness": "Archers and siege weapons.",
+        "weakness": "Archers, Scorpions, Mangonels, Boyars, Teutonic Knights",
         "icon": "GbetoIcon-DE.png"
     },
     "50": {
@@ -642,7 +642,7 @@
         "actual-name": "Ballista Elephant",
         "general": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
         "strength": "Infantry and archers.",
-        "weakness": "Cavalry and siege weapons.",
+        "weakness": " Scorpions, Rams, Kamayuks, Huskarls, Mamelukes, Camel Riders, Eagle Warriors, Halberdiers, Samurai, Mangonels, Bombard Cannons, Magyar Huszars, Mangudai, Flaming Camels, Monks",
         "icon": "Ballistaelephanticon-DE.png"
     },
     "54": {
@@ -666,7 +666,7 @@
         "actual-name": "Karambit Warrior",
         "general": "Malay unique infantry unit. Cheap and only takes half a population unit.",
         "strength": "Strong in high numbers.",
-        "weakness": "Cavalry and archers.",
+        "weakness": "Archers, Scorpions, Mangonels, heavy cavalry, gunpowder units and elephants, heavy infantry",
         "icon": "Karambitwarrioricon-DE.png"
     },
     "56": {
@@ -776,7 +776,7 @@
         "actual-name": "Rattan Archer",
         "general": "Vietnamese unique archer with high pierce armor.",
         "strength": "Archers and infantry.",
-        "weakness": "Cavalry and skirmishers.",
+        "weakness": "Cavalry, Skirmishers, Genitours, Huskarls, Eagle Warriors, siege weapons",
         "icon": "Rattanarchericon-DE.png"
     },
     "65": {
@@ -1010,7 +1010,7 @@
         "general": "Dravidian unique infantry unit which can charge its attack.",
         "strength": "Buildings and infantry.",
         "weakness": "Archers at long range.",
-        "icon": ""
+        "icon": "Aoe2de_Urumi.png"
     },
     "84": {
         "aliases": [
@@ -1134,7 +1134,7 @@
         "general": "Gurjara unique infantry unit with ranged melee attack.",
         "strength": "Infantry.",
         "weakness": "Archers and siege weapons.",
-        "icon": ""
+        "icon": "Aoe2de_Chakram.png"
     },
     "94": {
         "aliases": [
@@ -1232,9 +1232,9 @@
         ],
         "actual-name": "Ghulam",
         "general": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
-        "strength": "Archers.",
-        "weakness": "Cavalry.",
-        "icon": ""
+        "strength": "Foot archers, Villagers, siege units, Eagle Warriors",
+        "weakness": "Champions, Jaguar Warriors, Samurai, Teutonic Knights, heavy cavalry, Monks.",
+        "icon": "Aoe2de_Ghulam.png"
     },
     "102": {
         "aliases": [
@@ -1244,7 +1244,7 @@
         ],
         "actual-name": "Elite Ghulam",
         "general": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
-        "strength": "Archers.",
+        "strength": "Foot archers, Villagers, siege units, Eagle Warriors",
         "weakness": "Cavalry.",
         "icon": ""
     },
@@ -1427,7 +1427,7 @@
         "actual-name": "Elite Chu Ko Nu",
         "general": "Chinese unique archer with rapid-fire attack.",
         "strength": "Infantry.",
-        "weakness": "Archers and siege weapons.",
+        "weakness": "Skirmishers, Scorpions, Mangonels, cavalry, Huskarls, Eagle Warriors, Genitours, Ghulams",
         "icon": ".png"
     },
     "118": {
@@ -1667,7 +1667,7 @@
         "actual-name": "Obuch",
         "general": "Polish unique infantry unit which can damage the armor of units it is fighting.",
         "strength": "Buildings and infantry.",
-        "weakness": "Archers at long range.",
+        "weakness": "Samurai, gunpowder and mounted archers, Scorpions, Berserks, Cataphracts, Jaguar Warriors, Slingers, Organ Guns, Throwing Axemen, Mamelukes, Gbetos, Battle Elephants and War Elephants",
         "icon": "Aoe2-icon-Obuch.png"
     },
     "138": {
@@ -1727,7 +1727,7 @@
         "actual-name": "Berserk",
         "general": "Viking unique infantry unit that slowly heals itself.",
         "strength": "Infantry and siege weapons.",
-        "weakness": "Archers.",
+        "weakness": "Cataphracts, Jaguar Warriors, Boyars, Samurai, Teutonic Knights, archer units, Throwing Axemen",
         "icon": "BerserkIcon-DE.png"
     },
     "143": {
@@ -1895,7 +1895,7 @@
         "actual-name": "Plumed Archer",
         "general": "Mayan unique fast-moving archer.",
         "strength": "Archers and infantry.",
-        "weakness": "Cavalry.",
+        "weakness": "Skirmishers, siege weapons, cavalry, Huskarls, Rattan Archers, Genitours, War Wagons",
         "icon": "PlumedArcherIcon-DE.png"
     },
     "157": {
@@ -1943,7 +1943,7 @@
         "actual-name": "Conquistador",
         "general": "Spanish unique mounted hand cannoneer.",
         "strength": "Infantry.",
-        "weakness": "Pikemen, skirmishers, and monks.",
+        "weakness": "Genoese Crossbowmen, Mamelukes, Camel Riders, Skirmishers, Genitours, Camel Archers",
         "icon": "ConquistadorIcon-DE.png"
     },
     "161": {
@@ -2003,7 +2003,7 @@
         "actual-name": "Genoese Crossbowman",
         "general": "Italian unique archer.",
         "strength": "Cavalry and infantry.",
-        "weakness": "Archers and siege weapons.",
+        "weakness": "Foot archers (situationally), siege weapons, Huskarls, Eagle Warriors, Ghulams, Skirmishers",
         "icon": "GenoeseCrossbowmanIcon-DE.png"
     },
     "166": {
@@ -2027,7 +2027,7 @@
         "actual-name": "War Wagon",
         "general": "Korean unique cavalry archer unit.",
         "strength": "Infantry and archers.",
-        "weakness": "Pikemen, skirmishers, and camel riders.",
+        "weakness": "Cavalry, Monks, Mangonels, Genoese Crossbowmen, Huskarls, Mamelukes, Camel Riders, Skirmishers, Eagle Warriors",
         "icon": "WarWagonIcon-DE.png"
     },
     "168": {
@@ -2039,7 +2039,7 @@
         "actual-name": "Magyar Huszar",
         "general": "Magyar unique light cavalry unit.",
         "strength": "Siege weapons.",
-        "weakness": "Pikemen and camel riders.",
+        "weakness": "Boyars, Pikemen, Kamayuks, Berserks, Genoese Crossbowmen, Teutonic Knights, Mamelukes, Camel Riders, Samurai",
         "icon": "MagyarHuszarIcon-DE.png"
     },
     "169": {

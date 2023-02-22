@@ -171,7 +171,8 @@
       "Woad Raider"
     ],
     "build": [
-      ""
+      "archer line",
+      "cavalry line"
     ]
   },
   "11": {
@@ -184,7 +185,9 @@
       "Chu Ko Nu"
     ],
     "build": [
-      ""
+      "Skirmishers",
+      "Mangonels",
+      "Cavalry"
     ]
   },
   "12": {
@@ -197,7 +200,9 @@
       "Kipchak"
     ],
     "build": [
-      ""
+      "Skirmishers",
+      "cavalry line",
+      "spearman line"
     ]
   },
   "13": {
@@ -213,7 +218,8 @@
       "Thirisadai"
     ],
     "build": [
-      ""
+      "archer line",
+      "spearman line"
     ]
   },
   "14": {
@@ -232,20 +238,23 @@
       "Shotel Warrior"
     ],
     "build": [
-      ""
+      "archer line",
+      "?"
     ]
   },
   "15": {
     "name": "Franks",
     "strengths": [
       "cavalry",
-      "cheap cavalry archerstles"
+      "cavalry archer",
+      "cheap castles"
     ],
     "unique-units": [
       "Throwing Axeman"
     ],
     "build": [
-      ""
+      "spearman line",
+      "skirmishers"
     ]
   },
   "16": {
@@ -259,7 +268,8 @@
       "Huskarl"
     ],
     "build": [
-      ""
+      "knight line",
+      "archer line"
     ]
   },
   "17": {
@@ -271,6 +281,7 @@
       "elephant archers"
     ],
     "unique-units": [
+      "Chakram Thrower",
       "Shrivamsha Rider",
       "Camel Scout"
     ],
@@ -291,7 +302,8 @@
       "Tarkan"
     ],
     "build": [
-      ""
+      "spearman line",
+      "skirmishers"
     ]
   },
   "19": {
@@ -304,7 +316,8 @@
       "Slinger"
     ],
     "build": [
-      ""
+      "archer line",
+      "skirmishers"
     ]
   },
   "20": {
@@ -320,7 +333,9 @@
       "Imperial Camel Rider"
     ],
     "build": [
-      ""
+      "cavalry",
+      "archer line",
+      "spearman line"
     ]
   },
   "21": {
@@ -335,7 +350,9 @@
       "Condottiero"
     ],
     "build": [
-      ""
+      "archer line",
+      "skirmishers",
+      "siege"
     ]
   },
   "22": {
@@ -352,7 +369,9 @@
       "Samurai"
     ],
     "build": [
-      ""
+      "archers",
+      "scorpions",
+      "spearman line"
     ]
   },
   "23": {
@@ -369,7 +388,9 @@
       "Ballista Elephant"
     ],
     "build": [
-      ""
+      "scorpions",
+      "rams",
+      "spearman line"
     ]
   },
   "24": {
@@ -391,7 +412,9 @@
       "Turtle Ship"
     ],
     "build": [
-      ""
+      "pikeman",
+      "mangonels",
+      "monks"
     ]
   },
   "25": {
@@ -404,7 +427,9 @@
       "Leitis"
     ],
     "build": [
-      ""
+      "spearman line",
+      "skirmishers",
+      "archers"
     ]
   },
   "26": {
@@ -421,7 +446,9 @@
       "Magyar Huszar"
     ],
     "build": [
-      ""
+      "spearman line",
+      "skirmishers",
+      "monks"
     ]
   },
   "27": {
@@ -435,7 +462,9 @@
       "Karambit Warrior"
     ],
     "build": [
-      ""
+      "archer line",
+      "scorpions",
+      "cavalry"
     ]
   },
   "28": {
@@ -453,7 +482,9 @@
       "Gbeto"
     ],
     "build": [
-      ""
+      "archer line",
+      "scorpions",
+      "spearman line"
     ]
   },
   "29": {
@@ -470,7 +501,9 @@
       "Plumed Archer"
     ],
     "build": [
-      ""
+      "skirmishers",
+      "spearman line",
+      "cavalry"
     ]
   },
   "30": {
@@ -489,7 +522,9 @@
       "Mangudai"
     ],
     "build": [
-      ""
+      "skirmishers",
+      "cavalry",
+      "archers"
     ]
   },
   "31": {
@@ -508,7 +543,9 @@
       "War Elephant"
     ],
     "build": [
-      ""
+      "spearman line",
+      "monks",
+      "scorpions"
     ]
   },
   "32": {
@@ -520,7 +557,9 @@
       "Obuch"
     ],
     "build": [
-      ""
+      "scorpions",
+      "spearman line",
+      "mounted archers"
     ]
   },
   "33": {
@@ -533,11 +572,13 @@
       "siege"
     ],
     "unique-units": [
-      ""
-    ],
-    "build": [
       "Organ Gun",
       "Caravel"
+    ],
+    "build": [
+      "cavalary",
+      "spearman line",
+      "managonels"
     ]
   },
   "34": {
@@ -556,7 +597,9 @@
       "Mameluke"
     ],
     "build": [
-      ""
+      "archer line",
+      "monks",
+      "spearman line"
     ]
   },
   "35": {
@@ -570,7 +613,9 @@
       "Serjeant"
     ],
     "build": [
-      ""
+      "scorpions",
+      "spearman line",
+      "archer line"
     ]
   },
   "36": {
@@ -584,7 +629,9 @@
       "Boyar"
     ],
     "build": [
-      ""
+      "spearman line",
+      "archer line",
+      "cavalry line"
     ]
   },
   "37": {
@@ -599,7 +646,9 @@
       "Missionary"
     ],
     "build": [
-      ""
+      "Skirmishers",
+      "mangonels",
+      "spearman"
     ]
   },
   "38": {
@@ -615,7 +664,9 @@
       "Flaming Camel"
     ],
     "build": [
-      ""
+      "spearman line",
+      "skirmishers",
+      "cavalry"
     ]
   },
   "39": {
@@ -632,7 +683,9 @@
       "Teutonic Knight"
     ],
     "build": [
-      ""
+      "archers",
+      "scorpions",
+      "monks"
     ]
   },
   "40": {
@@ -651,7 +704,9 @@
       "Janissary"
     ],
     "build": [
-      ""
+      "skirmishers",
+      "mangonels",
+      "spearman"
     ]
   },
   "41": {
@@ -669,7 +724,9 @@
       "Imperial Skirmisher"
     ],
     "build": [
-      ""
+      "cavalry",
+      "skirmisheres",
+      "spearman line"
     ]
   },
   "42": {
@@ -684,7 +741,9 @@
       "Longboat"
     ],
     "build": [
-      ""
+      "archer line",
+      "cavalry archers",
+      "cavalry"
     ]
   }
 }

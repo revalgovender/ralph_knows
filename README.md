@@ -36,7 +36,7 @@ You can interact with Ralph by using the following slash commands:
 ![usage image](/img/build-order-result.png)
 
 ## Bot Availability
-- Bot is currently running 24/7 while we monitor usage
+- Bot is currently running as and when needed
 - If usage is low, we will reconsider bot availability
 
 ## Deployment

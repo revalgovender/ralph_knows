@@ -40,6 +40,7 @@ def get_civ_data(message: str):
             strengths = strengths.capitalize()
             build = civ[1]['build']
             build = ', '.join(build)
+            build = build.capitalize()
             civ_name = civ[1]['name']
             unique_units = civ[1]['unique-units']
             castle_unit = unique_units[0]
