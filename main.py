@@ -126,4 +126,5 @@ if __name__ == '__main__':
         response = responses.get_civ_data(civ)
         await interaction.response.send_message(embed=response, ephemeral=True)
 
-bot.run(token=os.environ['TOKEN'])
+# bot.run(token=os.environ['TOKEN'])
+bot.run(token='MTA3NjQ0ODU0MjIwMzMzNDY4Ng.G-yaPF.C2OLf9z52J9uHaScc41qdwB9FQtm3n7FV6EJI8')
