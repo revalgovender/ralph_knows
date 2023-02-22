@@ -3,7 +3,7 @@ import os
 import discord
 
 
-def get_response(message: str, username: str):
+def get_counter(message: str):
     user_supplied_unit_name = message.lower()
     file = open('data/units.json')
     data = json.load(file)
@@ -26,7 +26,7 @@ def get_response(message: str, username: str):
     return embed
 
 
-def get_civ_data(message: str, username: str):
+def get_civ_data(message: str):
     user_supplied_civ_name = message.lower()
     file = open('data/civs.json')
     data = json.load(file)
@@ -41,11 +41,27 @@ def get_civ_data(message: str, username: str):
             build = civ[1]['build']
             build = ', '.join(build)
             civ_name = civ[1]['name']
+            unique_units = civ[1]['unique-units']
+            castle_unit = unique_units[0]
+            file = open('data/units.json')
+            data = json.load(file)
+            counters = ''
+
+            for unit in data.items():
+                if castle_unit.lower() in unit[1]['aliases']:
+                    counters = unit[1]['weakness']
+                    if counters[-1] == '.':
+                        counters = counters.rstrip(counters[-1])
 
             embed = discord.Embed(title="", description="", color=0x9a8da7)
             embed.set_author(name=civ_name, icon_url="https://aoecompanion.com/civ-icons/" + civ_name.lower() + '.png')
-            embed.add_field(name='Have strong', value=strengths, inline=False)
-            embed.add_field(name='Try building', value=build, inline=False)
+            embed.add_field(name='Castle Unit', value=castle_unit, inline=True)
+            embed.add_field(name='', value='', inline=True)
+            embed.add_field(name='Counter', value=counters, inline=True)
+            embed.add_field(name='Have strong', value=strengths, inline=True)
+            embed.add_field(name='', value='', inline=True)
+            embed.add_field(name='Try building', value=build, inline=True)
+
             return embed
 
     embed = discord.Embed(title="😔 I couldn't find that civ sire",

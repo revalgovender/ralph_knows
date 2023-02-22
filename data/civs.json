@@ -1,10 +1,12 @@
 {
   "1": {
     "name": "Aztecs",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "monks"
+    ],
+    "unique-units": [
+      "Jaguar Warrior"
     ],
     "build": [
       "ranged units",
@@ -13,12 +15,14 @@
   },
   "2": {
     "name": "Bengalis",
-    "image": "bengalis.png",
     "strengths": [
       "elephants",
       "cavalry archers",
       "elephant archers",
       "ships"
+    ],
+    "unique-units": [
+      "Ratha"
     ],
     "build": [
       "spearman line",
@@ -28,7 +32,6 @@
   },
   "3": {
     "name": "Berbers",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "camels",
@@ -39,6 +42,10 @@
       "camel archer",
       "hussar"
     ],
+    "unique-units": [
+      "Camel Archer",
+      "Genitour"
+    ],
     "build": [
       "spearman line",
       "monks",
@@ -47,11 +54,14 @@
   },
   "4": {
     "name": "Bohemians",
-    "image": "aztecs.png",
     "strengths": [
       "gunpowder",
       "monks",
       "siege"
+    ],
+    "unique-units": [
+      "Hussite Wagon",
+      "Houfnice"
     ],
     "build": [
       "spearman line",
@@ -61,11 +71,13 @@
   },
   "5": {
     "name": "Britons",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "longbowman",
       "arbalester"
+    ],
+    "unique-units": [
+      "Longbowman"
     ],
     "build": [
       "mangonels",
@@ -75,11 +87,14 @@
   },
   "6": {
     "name": "Bulgarians",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "cavalry",
       "siege"
+    ],
+    "unique-units": [
+      "Konnik",
+      "Dismounted Konnik"
     ],
     "build": [
       "archer line",
@@ -89,10 +104,13 @@
   },
   "7": {
     "name": "Burgundians",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "gunpowder"
+    ],
+    "unique-units": [
+      "Coustillier",
+      "Flemish Militia"
     ],
     "build": [
       "archer line",
@@ -102,7 +120,6 @@
   },
   "8": {
     "name": "Burmese",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "cavalry",
@@ -114,6 +131,9 @@
       "cavalier",
       "hallebardier"
     ],
+    "unique-units": [
+      "Arambai"
+    ],
     "build": [
       "archer line",
       "monks"
@@ -121,7 +141,6 @@
   },
   "9": {
     "name": "Byzantines",
-    "image": "aztecs.png",
     "strengths": [
       "defense",
       "camels",
@@ -133,16 +152,23 @@
       "fast fire ship",
       "building"
     ],
+    "unique-units": [
+      "Cataphract"
+    ],
     "build": [
-      ""
+      "spearman",
+      "monks",
+      "archers"
     ]
   },
   "10": {
     "name": "Celts",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "siege"
+    ],
+    "unique-units": [
+      "Woad Raider"
     ],
     "build": [
       ""
@@ -150,10 +176,12 @@
   },
   "11": {
     "name": "Chinese",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "cavalry"
+    ],
+    "unique-units": [
+      "Chu Ko Nu"
     ],
     "build": [
       ""
@@ -161,10 +189,12 @@
   },
   "12": {
     "name": "Cumans",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "siege"
+    ],
+    "unique-units": [
+      "Kipchak"
     ],
     "build": [
       ""
@@ -172,12 +202,15 @@
   },
   "13": {
     "name": "Dravidians",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "elephants",
       "elephant archers",
       "ships"
+    ],
+    "unique-units": [
+      "Urumi Swordsman",
+      "Thirisadai"
     ],
     "build": [
       ""
@@ -185,7 +218,6 @@
   },
   "14": {
     "name": "Ethiopians",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "siege",
@@ -196,16 +228,21 @@
       "siege ram",
       "bombard cannon"
     ],
+    "unique-units": [
+      "Shotel Warrior"
+    ],
     "build": [
       ""
     ]
   },
   "15": {
     "name": "Franks",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "cheap cavalry archerstles"
+    ],
+    "unique-units": [
+      "Throwing Axeman"
     ],
     "build": [
       ""
@@ -213,11 +250,13 @@
   },
   "16": {
     "name": "Goths",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "huskarl",
       "champion"
+    ],
+    "unique-units": [
+      "Huskarl"
     ],
     "build": [
       ""
@@ -225,12 +264,15 @@
   },
   "17": {
     "name": "Gurjaras",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "camels",
       "elephants",
       "elephant archers"
+    ],
+    "unique-units": [
+      "Shrivamsha Rider",
+      "Camel Scout"
     ],
     "build": [
       ""
@@ -238,7 +280,6 @@
   },
   "18": {
     "name": "Huns",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry archers",
       "cavalry",
@@ -246,15 +287,21 @@
       "paladin",
       "hussar"
     ],
+    "unique-units": [
+      "Tarkan"
+    ],
     "build": [
       ""
     ]
   },
   "19": {
     "name": "Incas",
-    "image": "aztecs.png",
     "strengths": [
       "infantry"
+    ],
+    "unique-units": [
+      "Kamayuk",
+      "Slinger"
     ],
     "build": [
       ""
@@ -262,12 +309,15 @@
   },
   "20": {
     "name": "Hindustanis",
-    "image": "aztecs.png",
     "strengths": [
       "camels",
       "gunpowder",
       "imperial camel",
       "hand cannoneer"
+    ],
+    "unique-units": [
+      "Ghulam",
+      "Imperial Camel Rider"
     ],
     "build": [
       ""
@@ -275,11 +325,14 @@
   },
   "21": {
     "name": "Italians",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "gunpowder",
       "ships"
+    ],
+    "unique-units": [
+      "Genoese Crossbowman",
+      "Condottiero"
     ],
     "build": [
       ""
@@ -287,7 +340,6 @@
   },
   "22": {
     "name": "Japanese",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "archers",
@@ -296,13 +348,15 @@
       "arbalester",
       "samurai"
     ],
+    "unique-units": [
+      "Samurai"
+    ],
     "build": [
       ""
     ]
   },
   "23": {
     "name": "Khmer",
-    "image": "aztecs.png",
     "strengths": [
       "siege",
       "elephants",
@@ -311,13 +365,15 @@
       "elite battle elephant",
       "heavy scorpion"
     ],
+    "unique-units": [
+      "Ballista Elephant"
+    ],
     "build": [
       ""
     ]
   },
   "24": {
     "name": "Koreans",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "siege",
@@ -330,16 +386,22 @@
       "hallebardier",
       "turtle ship"
     ],
+    "unique-units": [
+      "War Wagon",
+      "Turtle Ship"
+    ],
     "build": [
       ""
     ]
   },
   "25": {
     "name": "Lithuanians",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "monks"
+    ],
+    "unique-units": [
+      "Leitis"
     ],
     "build": [
       ""
@@ -347,7 +409,6 @@
   },
   "26": {
     "name": "Magyars",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "cavalry archers",
@@ -356,17 +417,22 @@
       "Magyar huszar",
       "hussar"
     ],
+    "unique-units": [
+      "Magyar Huszar"
+    ],
     "build": [
       ""
     ]
   },
   "27": {
     "name": "Malay",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "elephants",
       "ships"
+    ],
+    "unique-units": [
+      "Karambit Warrior"
     ],
     "build": [
       ""
@@ -374,7 +440,6 @@
   },
   "28": {
     "name": "Malians",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "cavalry",
@@ -384,13 +449,15 @@
       "heavy camel",
       "hussar"
     ],
+    "unique-units": [
+      "Gbeto"
+    ],
     "build": [
       ""
     ]
   },
   "29": {
     "name": "Mayans",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "infantry",
@@ -399,13 +466,15 @@
       "arbalester",
       "elite skirmisher"
     ],
+    "unique-units": [
+      "Plumed Archer"
+    ],
     "build": [
       ""
     ]
   },
   "30": {
     "name": "Mongols",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry archers",
       "siege",
@@ -416,13 +485,15 @@
       "siege ram",
       "siege onager"
     ],
+    "unique-units": [
+      "Mangudai"
+    ],
     "build": [
       ""
     ]
   },
   "31": {
     "name": "Persians",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "archers",
@@ -433,15 +504,20 @@
       "siege ram",
       "siege onager"
     ],
+    "unique-units": [
+      "War Elephant"
+    ],
     "build": [
       ""
     ]
   },
   "32": {
     "name": "Poles",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry"
+    ],
+    "unique-units": [
+      "Obuch"
     ],
     "build": [
       ""
@@ -449,7 +525,6 @@
   },
   "33": {
     "name": "Portuguese",
-    "image": "aztecs.png",
     "strengths": [
       "gunpowder",
       "ships",
@@ -457,13 +532,16 @@
       "cavalry",
       "siege"
     ],
-    "build": [
+    "unique-units": [
       ""
+    ],
+    "build": [
+      "Organ Gun",
+      "Caravel"
     ]
   },
   "34": {
     "name": "Saracens",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "camels",
@@ -474,17 +552,22 @@
       "siege onager",
       "galleon"
     ],
+    "unique-units": [
+      "Mameluke"
+    ],
     "build": [
       ""
     ]
   },
   "35": {
     "name": "Sicilians",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "infantry",
       "archers"
+    ],
+    "unique-units": [
+      "Serjeant"
     ],
     "build": [
       ""
@@ -492,11 +575,13 @@
   },
   "36": {
     "name": "Slavs",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "siege",
       "archers"
+    ],
+    "unique-units": [
+      "Boyar"
     ],
     "build": [
       ""
@@ -504,11 +589,14 @@
   },
   "37": {
     "name": "Spanish",
-    "image": "aztecs.png",
     "strengths": [
       "gunpowder",
       "monks",
       "cavalry"
+    ],
+    "unique-units": [
+      "Conquistador",
+      "Missionary"
     ],
     "build": [
       ""
@@ -516,12 +604,15 @@
   },
   "38": {
     "name": "Tatars",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry archers",
       "archers",
       "heavy cavalry archer",
       "hussar"
+    ],
+    "unique-units": [
+      "Keshik",
+      "Flaming Camel"
     ],
     "build": [
       ""
@@ -529,7 +620,6 @@
   },
   "39": {
     "name": "Teutons",
-    "image": "aztecs.png",
     "strengths": [
       "cavalry",
       "infantry",
@@ -538,13 +628,15 @@
       "monks",
       "defense"
     ],
+    "unique-units": [
+      "Teutonic Knight"
+    ],
     "build": [
       ""
     ]
   },
   "40": {
     "name": "Turks",
-    "image": "aztecs.png",
     "strengths": [
       "gunpowder",
       "cavalry archers",
@@ -555,13 +647,15 @@
       "heavy cavalry archer",
       "hussar"
     ],
+    "unique-units": [
+      "Janissary"
+    ],
     "build": [
       ""
     ]
   },
   "41": {
     "name": "Vietnamese",
-    "image": "aztecs.png",
     "strengths": [
       "archers",
       "elephants",
@@ -570,17 +664,24 @@
       "imperial skirmisher",
       "elite battle elephant"
     ],
+    "unique-units": [
+      "Rattan Archer",
+      "Imperial Skirmisher"
+    ],
     "build": [
       ""
     ]
   },
   "42": {
     "name": "Vikings",
-    "image": "aztecs.png",
     "strengths": [
       "infantry",
       "archers",
       "ships"
+    ],
+    "unique-units": [
+      "Berserk",
+      "Longboat"
     ],
     "build": [
       ""

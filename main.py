@@ -69,8 +69,8 @@ if __name__ == '__main__':
     @app_commands.describe(unit="What unit do you need the counter for?")
     @app_commands.autocomplete(unit=unit_autocomplete)
     async def self(interaction: discord.Interaction, unit: str):
-        response = responses.get_response(unit, str(interaction.user))
-        await interaction.response.send_message(embed=response, ephemeral=False)
+        response = responses.get_counter(unit)
+        await interaction.response.send_message(embed=response, ephemeral=True)
 
 
     @tree.command(name='build-order', description='Get build order',
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     ])
     async def self(interaction: discord.Interaction, types: discord.app_commands.Choice[str]):
         response = responses.get_build_order_response(int(types.value))
-        await interaction.response.send_message(embed=response, ephemeral=False)
+        await interaction.response.send_message(embed=response, ephemeral=True)
 
     async def civ_autocomplete(
             interaction: discord.Interaction,
@@ -123,7 +123,7 @@ if __name__ == '__main__':
     @app_commands.describe(civ="What civ do you want information about?")
     @app_commands.autocomplete(civ=civ_autocomplete)
     async def self(interaction: discord.Interaction, civ: str):
-        response = responses.get_civ_data(civ, str(interaction.user))
-        await interaction.response.send_message(embed=response, ephemeral=False)
+        response = responses.get_civ_data(civ)
+        await interaction.response.send_message(embed=response, ephemeral=True)
 
 bot.run(token=os.environ['TOKEN'])
