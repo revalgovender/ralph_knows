@@ -70,7 +70,7 @@ if __name__ == '__main__':
     @app_commands.autocomplete(unit=unit_autocomplete)
     async def self(interaction: discord.Interaction, unit: str):
         response = responses.get_counter(unit)
-        await interaction.response.send_message(embed=response, ephemeral=True)
+        await interaction.response.send_message(embed=response, ephemeral=False)
 
 
     @tree.command(name='build-order', description='Get build order',
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     ])
     async def self(interaction: discord.Interaction, types: discord.app_commands.Choice[str]):
         response = responses.get_build_order_response(int(types.value))
-        await interaction.response.send_message(embed=response, ephemeral=True)
+        await interaction.response.send_message(embed=response, ephemeral=False)
 
     async def civ_autocomplete(
             interaction: discord.Interaction,
@@ -124,7 +124,6 @@ if __name__ == '__main__':
     @app_commands.autocomplete(civ=civ_autocomplete)
     async def self(interaction: discord.Interaction, civ: str):
         response = responses.get_civ_data(civ)
-        await interaction.response.send_message(embed=response, ephemeral=True)
+        await interaction.response.send_message(embed=response, ephemeral=False)
 
-# bot.run(token=os.environ['TOKEN'])
-bot.run(token='MTA3NjQ0ODU0MjIwMzMzNDY4Ng.G-yaPF.C2OLf9z52J9uHaScc41qdwB9FQtm3n7FV6EJI8')
+bot.run(token=os.environ['TOKEN'])
