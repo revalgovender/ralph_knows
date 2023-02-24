@@ -286,7 +286,9 @@
       "Camel Scout"
     ],
     "build": [
-      ""
+      "archer line",
+      "spearman line",
+      "seige"
     ]
   },
   "18": {
