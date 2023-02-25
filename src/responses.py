@@ -102,7 +102,7 @@ def get_build_order_response(type: int):
             "One of wood villagers builds blacksmith and stable.",
             "Research Castle age.",
             "While going to castle research available technologies at lumber camp and mill.",
-            "2 Knights at your stable and attack!",
+            "Train 2 Knights at your stable and attack!",
         ]
 
     if type == 2:
@@ -121,6 +121,11 @@ def get_build_order_response(type: int):
             "18, 19 gold",
             "20 berries",
             "21 stone",
+            "Research Feudal Age.",
+            "One of villagers in wood builds barracks.",
+            "Train 3 militia and move them towards enemy with scout",
+            "Upgrade to Man-at-Arms asap",
+            "Attack with scout and Man-at-arms"
         ]
 
     embed = discord.Embed(title=title, description='', color=0x9a8da7)
