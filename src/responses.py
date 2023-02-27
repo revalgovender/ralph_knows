@@ -18,12 +18,12 @@ def get_counter(message: str):
 
             embed = discord.Embed(title=counters, description="are the counters for " + unit[1]['actual-name'],
                                   color=0x9a8da7)
-            return embed
+            return [embed, counters, unit[1]['actual-name']]
 
     embed = discord.Embed(title="😔 I couldn't find that unit sire",
                           description='I have recorded your message to study it. I will update the scrolls if required.',
                           color=0xf22c56)
-    return embed
+    return [embed, "I couldn't find that unit sire"]
 
 
 def get_civ_data(message: str):

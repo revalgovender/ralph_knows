@@ -294,7 +294,7 @@
     "actual-name": "Monk",
     "general": "Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons).",
     "strength": "Slow and non-ranged units.",
-    "weakness": "Light cavalry and ranged units. can collect relics and bring them to monasteries.",
+    "weakness": "Light cavalry and ranged units.",
     "icon": "Monk_aoe2DE.png"
   },
   "25": {
@@ -763,7 +763,7 @@
     ],
     "actual-name": "Demolition Raft",
     "general": "Demolition ship armed with explosives.",
-    "strength": "Fire galleys and buildings. self-destructs when used.",
+    "strength": "Fire galleys and buildings",
     "weakness": "Towers, ranged units on the shoreline",
     "icon": "Demoraft_aoe2DE.png"
   },

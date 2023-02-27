@@ -9,13 +9,25 @@ Discord bot which provides useful information for AOE2DE.
 You can interact with Ralph by using the following slash commands:
 
 ### Counter
+There are two ways you can use this command. You can use to retrieve text based responses or audio responses.
+
+#### Text responses
 `/counter` and then supply a unit to look up the counter for.
+
+#### Audio responses
+- Join a voice channel
+- Run `/join`
+- Ralph will join your voice channel
+- Run `/counter`
+- Ralph will return a text response in the text channel
+- Ralph will return an audio response in the voice channel
 
 #### Example input:
 ![usage image](/img/auto-complete-usage.png)
 
 #### Result:
 ![usage image](/img/counter-result.png)
+![usage image](/img/voice-usage.png)
 
 ### Civ Information
 `/civ` and then select the civ you want information on

@@ -1,18 +1,23 @@
 import json
 import typing
 import random
+import discord
 
 from discord import app_commands
-import discord
 import os
-from typing import List
+
+from gtts import gTTS
 
 from src import responses
 
 if __name__ == '__main__':
     class Ralph(discord.Client):
+
         def __init__(self):
-            super().__init__(intents=discord.Intents.default())
+            intents = discord.Intents.default()
+            intents.members = True
+            intents.message_content = True
+            super().__init__(intents=intents)
             self_synced = False
 
         async def on_ready(self):
@@ -70,7 +75,24 @@ if __name__ == '__main__':
     @app_commands.autocomplete(unit=unit_autocomplete)
     async def self(interaction: discord.Interaction, unit: str):
         response = responses.get_counter(unit)
-        await interaction.response.send_message(embed=response, ephemeral=False)
+        await interaction.response.send_message(embed=response[0], ephemeral=False)
+
+        # Format message to be spoken in voice channel
+        counters = response[1]
+        counters_tts = response[1]
+        counters_as_list = counters.split(',')
+
+        if len(counters_as_list) > 2:
+            counters_tts = counters_as_list[0] + ' or ' + counters_as_list[1] + '. More in the channel.'
+
+        # Convert message to mp3
+        sound = gTTS(text="The counter for " + response[2] + " is: " + counters_tts, lang="en", slow=False)
+        sound.save("tts-audio.mp3")
+
+        # Play mp3 in voice channel
+        vc = discord.utils.get(bot.voice_clients, guild=interaction.guild)
+        if vc:
+            vc.play(discord.FFmpegPCMAudio("tts-audio.mp3"))
 
 
     @tree.command(name='build-order', description='Get build order',
@@ -83,6 +105,7 @@ if __name__ == '__main__':
     async def self(interaction: discord.Interaction, types: discord.app_commands.Choice[str]):
         response = responses.get_build_order_response(int(types.value))
         await interaction.response.send_message(embed=response, ephemeral=False)
+
 
     async def civ_autocomplete(
             interaction: discord.Interaction,
@@ -125,5 +148,25 @@ if __name__ == '__main__':
     async def self(interaction: discord.Interaction, civ: str):
         response = responses.get_civ_data(civ)
         await interaction.response.send_message(embed=response, ephemeral=False)
+
+
+    @tree.command(name='join', description='Join voice channel author is in',
+                  guild=discord.Object(id=521077625519603712))
+    async def join(interaction: discord.Interaction):
+        if interaction.user.voice:
+            await interaction.user.voice.channel.connect()
+            await interaction.response.send_message("I have joined your voice channel.")
+        else:
+            await interaction.response.send_message("You are not in a voice channel. Please join one so I can join!")
+
+
+    @tree.command(name='leave', description='Join voice channel author is in',
+                  guild=discord.Object(id=521077625519603712))
+    async def join(interaction: discord.Interaction):
+        if interaction.guild.voice_client:
+            await interaction.guild.voice_client.disconnect()
+            await interaction.response.send_message("I have left your voice channel")
+        else:
+            await interaction.response.send_message("I am not in any voice channel!")
 
 bot.run(token=os.environ['TOKEN'])
