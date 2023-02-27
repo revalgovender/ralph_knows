@@ -89,13 +89,9 @@ if __name__ == '__main__':
         sound = gTTS(text="The counter for " + response[2] + " is: " + counters_tts, lang="en", slow=False)
         sound.save("tts-audio.mp3")
 
-        print("saved mp3")
-
         # Play mp3 in voice channel
         vc = discord.utils.get(bot.voice_clients, guild=interaction.guild)
         if vc:
-            print('trying to say')
-            print(counters_tts)
             vc.play(discord.FFmpegPCMAudio("tts-audio.mp3"))
 
 
