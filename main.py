@@ -22,9 +22,9 @@ if __name__ == '__main__':
 
         async def on_ready(self):
             try:
-                # print('trying to sync')
-                # synced = await tree.sync(guild=discord.Object(id=521077625519603712))
-                # print(f"Synced {len(synced)} commands.")
+                print('trying to sync')
+                synced = await tree.sync(guild=discord.Object(id=521077625519603712))
+                print(f"Synced {len(synced)} commands.")
                 self_synced = True
             except Exception as exception:
                 print(exception)
