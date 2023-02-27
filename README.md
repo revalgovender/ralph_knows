@@ -21,6 +21,7 @@ There are two ways you can use this command. You can use to retrieve text based 
 - Run `/counter`
 - Ralph will return a text response in the text channel
 - Ralph will return an audio response in the voice channel
+- If the counter list is too long, Ralph will only speak the first two
 
 #### Example input:
 ![usage image](/img/auto-complete-usage.png)
