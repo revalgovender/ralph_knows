@@ -119,7 +119,7 @@
     "actual-name": "Archer",
     "general": "Ranged unit.",
     "strength": "Units at long range.",
-    "weakness": "Skirmishers and units at close range.",
+    "weakness": "Skirmishers, cavalry and units at close range.",
     "icon": "Archer_aoe2DE.png"
   },
   "11": {
