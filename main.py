@@ -156,14 +156,34 @@ if __name__ == '__main__':
         if interaction.user.voice:
             await interaction.user.voice.channel.connect()
             await interaction.response.send_message("I have joined your voice channel.")
+
+            # Convert message to mp3
+            sound = gTTS(text="Hey, it's Ralph", lang="en", slow=False)
+            sound.save("tts-audio.mp3")
+
+            # Play mp3 in voice channel
+            vc = discord.utils.get(client.voice_clients, guild=interaction.guild)
+            if vc:
+                vc.play(discord.FFmpegPCMAudio("tts-audio.mp3"))
         else:
             await interaction.response.send_message("You are not in a voice channel. Please join one so I can join!")
 
 
-    @bot.command(name='leave', description='Join voice channel author is in',
+    @bot.command(name='leave', description='Leave voice channel author is in',
                  guild=discord.Object(id=521077625519603712))
-    async def join(interaction: discord.Interaction):
+    async def leave(interaction: discord.Interaction):
         if interaction.guild.voice_client:
+
+            # Convert message to mp3
+            sound = gTTS(text="Bye guys", lang="en", slow=False)
+            sound.save("tts-audio.mp3")
+
+            # Play mp3 in voice channel
+            vc = discord.utils.get(client.voice_clients, guild=interaction.guild)
+            if vc:
+                vc.play(discord.FFmpegPCMAudio("tts-audio.mp3"))
+
+
             await interaction.guild.voice_client.disconnect()
             await interaction.response.send_message("I have left your voice channel")
         else:
